@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/nux/Developer/study/cpp/opencv/build/src",
+  "command": "/usr/bin/c++  -I/home/nux/Developer/study/cpp/opencv/src -isystem /usr/local/include/opencv5 -g -std=gnu++20 -Wall -Wextra -Werror -o CMakeFiles/CVTest.dir/main.cc.o -c /home/nux/Developer/study/cpp/opencv/src/main.cc",
+  "file": "/home/nux/Developer/study/cpp/opencv/src/main.cc",
+  "output": "src/CMakeFiles/CVTest.dir/main.cc.o"
+},
+{
+  "directory": "/home/nux/Developer/study/cpp/opencv/build/src",
+  "command": "/usr/bin/c++  -I/home/nux/Developer/study/cpp/opencv/src -isystem /usr/local/include/opencv5 -g -std=gnu++20 -Wall -Wextra -Werror -o CMakeFiles/CVTest.dir/window/window.cc.o -c /home/nux/Developer/study/cpp/opencv/src/window/window.cc",
+  "file": "/home/nux/Developer/study/cpp/opencv/src/window/window.cc",
+  "output": "src/CMakeFiles/CVTest.dir/window/window.cc.o"
+},
+{
+  "directory": "/home/nux/Developer/study/cpp/opencv/build/src",
+  "command": "/usr/bin/c++  -I/home/nux/Developer/study/cpp/opencv/src -isystem /usr/local/include/opencv5 -g -std=gnu++20 -Wall -Wextra -Werror -o CMakeFiles/CVTest.dir/position/position.cc.o -c /home/nux/Developer/study/cpp/opencv/src/position/position.cc",
+  "file": "/home/nux/Developer/study/cpp/opencv/src/position/position.cc",
+  "output": "src/CMakeFiles/CVTest.dir/position/position.cc.o"
+}
+]

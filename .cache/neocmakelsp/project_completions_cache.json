@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-11T15:51:51.212933411+03:00",
+  "data": {
+    "/home/nux/Developer/study/cpp/opencv/CMakeLists.txt": [
+      {
+        "label": "CMAKE_EXPORT_COMPILE_COMMANDS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /home/nux/Developer/study/cpp/opencv/CMakeLists.txt"
+      },
+      {
+        "label": "CMAKE_CXX_STANDARD",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /home/nux/Developer/study/cpp/opencv/CMakeLists.txt"
+      },
+      {
+        "label": "CMAKE_CXX_STANDARD_REQUIRED",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /home/nux/Developer/study/cpp/opencv/CMakeLists.txt"
+      }
+    ]
+  }
+}

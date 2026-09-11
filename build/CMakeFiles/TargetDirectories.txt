@@ -1,0 +1,5 @@
+/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/edit_cache.dir
+/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/rebuild_cache.dir
+/home/nux/Developer/study/cpp/opencv/build/src/CMakeFiles/CVTest.dir
+/home/nux/Developer/study/cpp/opencv/build/src/CMakeFiles/edit_cache.dir
+/home/nux/Developer/study/cpp/opencv/build/src/CMakeFiles/rebuild_cache.dir
