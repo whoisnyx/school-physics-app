@@ -1,0 +1,62 @@
+# Build directories
+/build/
+/build-*/
+cmake-build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Generated build files
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Test and coverage output
+Testing/
+*.gcda
+*.gcno
+*.gcov
+coverage/
+coverage.html
+
+# Compiled binaries and object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+
+# Debugging files
+*.dSYM/
+*.su
+*.stackdump
+
+# IDE and editor files
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.vcxproj.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
