@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/nux/Developer/study/cpp/school-physics-app/build/cmake_install.cmake",
-		"/home/nux/Developer/study/cpp/school-physics-app/build/src/cmake_install.cmake",
-		"/home/nux/Developer/study/cpp/school-physics-app/build/tests/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

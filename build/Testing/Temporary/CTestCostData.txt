@@ -1,3 +1,0 @@
-PositionCalculatorTest.BasicInitialization 20 0.000159511
-PositionCalculatorTest.TrackObjectWithValidFrame 20 0.00105236
----

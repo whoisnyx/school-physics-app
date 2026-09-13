@@ -1,2 +1,0 @@
-/usr/bin/ar qc liblogic_lib.a CMakeFiles/logic_lib.dir/window/window.cc.o CMakeFiles/logic_lib.dir/position/position.cc.o
-/usr/bin/ranlib liblogic_lib.a
