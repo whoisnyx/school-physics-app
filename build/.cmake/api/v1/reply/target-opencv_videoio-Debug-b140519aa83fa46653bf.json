@@ -1,0 +1,167 @@
+{
+	"abstract" : true,
+	"artifacts" : 
+	[
+		{
+			"path" : "/usr/local/lib/libopencv_videoio.so.5.1.0"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"find_package",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"/usr/local/lib/cmake/opencv5/OpenCVModules.cmake",
+			"/usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 120,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"id" : "opencv_videoio::@145eef247bfb46b6828c",
+	"imported" : true,
+	"interfaceCompileDependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "opencv_core::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_flann::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_geometry::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgproc::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgcodecs::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_core::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_flann::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_geometry::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgproc::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgcodecs::@145eef247bfb46b6828c"
+		}
+	],
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "opencv_core::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_flann::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_geometry::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgproc::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgcodecs::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_core::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_flann::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_geometry::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgproc::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "opencv_imgcodecs::@145eef247bfb46b6828c"
+		}
+	],
+	"local" : true,
+	"name" : "opencv_videoio",
+	"nameOnDisk" : "libopencv_videoio.so.5.1.0",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sources" : [],
+	"type" : "SHARED_LIBRARY"
+}

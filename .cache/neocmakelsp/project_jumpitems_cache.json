@@ -1,56 +1,39 @@
 {
-  "date": "2026-09-11T16:57:47.323890747+03:00",
+  "date": "2026-09-13T13:55:37.719433326+03:00",
   "data": {
-    "_OpenCV_HANDLE_COMPONENTS_MANUALLY": {
+    "_cmake_targets_defined": {
       "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake",
         "range": {
           "start": {
-            "line": 65,
-            "character": 6
+            "line": 18,
+            "character": 4
           },
           "end": {
-            "line": 65,
-            "character": 40
+            "line": 18,
+            "character": 26
           }
         }
       },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nThe missing components will be handled by this config.",
+      "document_info": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake\n\nProtect against multiple inclusion, which would fail when already imported targets are added once more.",
       "is_function": false
     },
-    "ocv_target_link_libraries": {
+    "PACKAGE_PREFIX_DIR": {
       "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake",
         "range": {
           "start": {
-            "line": 320,
+            "line": 12,
             "character": 6
           },
           "end": {
-            "line": 320,
-            "character": 31
+            "line": 12,
+            "character": 24
           }
         }
       },
-      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": true
-    },
-    "ocv_include_directories": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 298,
-            "character": 9
-          },
-          "end": {
-            "line": 298,
-            "character": 32
-          }
-        }
-      },
-      "document_info": "defined function\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nadds include directories in such way that directories from the OpenCV source tree go first",
-      "is_function": true
+      "document_info": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake",
+      "is_function": false
     },
     "__final_config": {
       "location": {
@@ -69,72 +52,21 @@
       "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
       "is_function": false
     },
-    "__force_flag": {
+    "__remap_config": {
       "location": {
         "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
         "range": {
           "start": {
-            "line": 151,
+            "line": 149,
             "character": 12
           },
           "end": {
-            "line": 151,
-            "character": 24
+            "line": 149,
+            "character": 26
           }
         }
       },
       "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": false
-    },
-    "CMAKE_EXPORT_COMPILE_COMMANDS": {
-      "location": {
-        "uri": "file:///home/nux/Developer/study/cpp/opencv/CMakeLists.txt",
-        "range": {
-          "start": {
-            "line": 3,
-            "character": 4
-          },
-          "end": {
-            "line": 3,
-            "character": 33
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /home/nux/Developer/study/cpp/opencv/CMakeLists.txt",
-      "is_function": false
-    },
-    "_IMPORT_PREFIX": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVModules.cmake",
-        "range": {
-          "start": {
-            "line": 174,
-            "character": 4
-          },
-          "end": {
-            "line": 174,
-            "character": 18
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVModules.cmake\n\nCleanup temporary variables.",
-      "is_function": false
-    },
-    "OpenCV_LIBRARIES": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 263,
-            "character": 4
-          },
-          "end": {
-            "line": 263,
-            "character": 20
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\n==============================================================",
       "is_function": false
     },
     "OpenCV_VERSION_STATUS": {
@@ -148,23 +80,6 @@
           "end": {
             "line": 52,
             "character": 25
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": false
-    },
-    "OpenCV_VERSION_PATCH": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 50,
-            "character": 4
-          },
-          "end": {
-            "line": 50,
-            "character": 24
           }
         }
       },
@@ -188,56 +103,107 @@
       "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
       "is_function": false
     },
-    "__cvcomponent": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 195,
-            "character": 8
-          },
-          "end": {
-            "line": 195,
-            "character": 21
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": false
-    },
     "CMAKE_IMPORT_FILE_VERSION": {
       "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVModules-release.cmake",
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets-none.cmake",
         "range": {
           "start": {
-            "line": 168,
+            "line": 28,
             "character": 4
           },
           "end": {
-            "line": 168,
+            "line": 28,
             "character": 29
           }
         }
       },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVModules-release.cmake\n\nCommands beyond this point should not need to know the version.",
+      "document_info": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets-none.cmake\n\nCommands beyond this point should not need to know the version.",
       "is_function": false
     },
-    "__compile_features": {
+    "OpenCV_LIBRARIES": {
       "location": {
         "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
         "range": {
           "start": {
-            "line": 272,
-            "character": 6
+            "line": 263,
+            "character": 4
           },
           "end": {
-            "line": 272,
+            "line": 263,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\n==============================================================",
+      "is_function": false
+    },
+    "OpenCV_VERSION_PATCH": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 50,
+            "character": 4
+          },
+          "end": {
+            "line": 50,
             "character": 24
           }
         }
       },
       "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
       "is_function": false
+    },
+    "__force_flag": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 151,
+            "character": 12
+          },
+          "end": {
+            "line": 151,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": false
+    },
+    "accumulate_line": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 452,
+            "character": 12
+          },
+          "end": {
+            "line": 452,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "ocv_list_filterout": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 325,
+            "character": 6
+          },
+          "end": {
+            "line": 325,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nremove all matching elements from the list",
+      "is_function": true
     },
     "OpenCV_VERSION_MINOR": {
       "location": {
@@ -256,395 +222,140 @@
       "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
       "is_function": false
     },
-    "__remap_warnings": {
+    "arg_DISCOVERY_MODE": {
       "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
         "range": {
           "start": {
-            "line": 162,
-            "character": 16
-          },
-          "end": {
-            "line": 162,
-            "character": 32
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": false
-    },
-    "find_host_program": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 81,
-            "character": 10
-          },
-          "end": {
-            "line": 81,
-            "character": 27
-          }
-        }
-      },
-      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": true
-    },
-    "PACKAGE_VERSION": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig-version.cmake",
-        "range": {
-          "start": {
-            "line": 1,
-            "character": 4
-          },
-          "end": {
-            "line": 1,
-            "character": 19
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig-version.cmake",
-      "is_function": false
-    },
-    "OCV_DEPENDENCIES_FOUND": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 291,
-            "character": 10
-          },
-          "end": {
-            "line": 291,
-            "character": 32
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": false
-    },
-    "__target": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 268,
-            "character": 6
-          },
-          "end": {
-            "line": 268,
-            "character": 14
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": false
-    },
-    "find_host_package": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 76,
-            "character": 10
-          },
-          "end": {
-            "line": 76,
-            "character": 27
-          }
-        }
-      },
-      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": true
-    },
-    "__OpenCV_INCLUDE_DIRS": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 102,
-            "character": 4
-          },
-          "end": {
-            "line": 102,
-            "character": 25
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": false
-    },
-    "OpenCV_WORLD_COMPONENTS": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 187,
-            "character": 4
-          },
-          "end": {
-            "line": 187,
-            "character": 27
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": false
-    },
-    "ocv_check_dependencies": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 286,
-            "character": 6
-          },
-          "end": {
-            "line": 286,
-            "character": 28
-          }
-        }
-      },
-      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\n",
-      "is_function": true
-    },
-    "OpenCV_USE_MANGLED_PATHS": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 99,
-            "character": 4
-          },
-          "end": {
-            "line": 99,
-            "character": 28
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nEnables mangled install paths, that help with side by side installs",
-      "is_function": false
-    },
-    "OpenCV_LIBS": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 220,
+            "line": 588,
             "character": 8
           },
           "end": {
-            "line": 220,
-            "character": 19
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nto find_package(OpenCV) with different component lists add up.",
-      "is_function": false
-    },
-    "OpenCV_SHARED": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 96,
-            "character": 4
-          },
-          "end": {
-            "line": 96,
-            "character": 17
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nSome additional settings are required if OpenCV is built as static libs",
-      "is_function": false
-    },
-    "OpenCV_VERSION": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig-version.cmake",
-        "range": {
-          "start": {
-            "line": 0,
-            "character": 4
-          },
-          "end": {
-            "line": 0,
-            "character": 18
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig-version.cmake",
-      "is_function": false
-    },
-    "OPENCV_MAP_IMPORTED_CONFIG": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 140,
-            "character": 8
-          },
-          "end": {
-            "line": 140,
-            "character": 34
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nAdd mapping of RelWithDebInfo and MinSizeRel to Release here",
-      "is_function": false
-    },
-    "ocv_include_modules": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 312,
-            "character": 6
-          },
-          "end": {
-            "line": 312,
-            "character": 25
-          }
-        }
-      },
-      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": true
-    },
-    "_cmake_targets_not_defined": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVModules.cmake",
-        "range": {
-          "start": {
-            "line": 19,
-            "character": 4
-          },
-          "end": {
-            "line": 19,
-            "character": 30
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVModules.cmake",
-      "is_function": false
-    },
-    "_cmake_targets_defined": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVModules.cmake",
-        "range": {
-          "start": {
-            "line": 18,
-            "character": 4
-          },
-          "end": {
-            "line": 18,
+            "line": 588,
             "character": 26
           }
         }
       },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVModules.cmake\n\nProtect against multiple inclusion, which would fail when already imported targets are added once more.",
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
       "is_function": false
     },
-    "PACKAGE_VERSION_EXACT": {
+    "ctest_file_base": {
       "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig-version.cmake",
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
         "range": {
           "start": {
-            "line": 7,
+            "line": 614,
             "character": 6
           },
           "end": {
-            "line": 7,
-            "character": 27
+            "line": 614,
+            "character": 21
           }
         }
       },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig-version.cmake",
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake\n\nDefine rule to generate test list for aforementioned test executable",
       "is_function": false
     },
-    "ocv_include_modules_recurse": {
+    "arg_SOURCES": {
       "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
         "range": {
           "start": {
-            "line": 316,
+            "line": 403,
+            "character": 10
+          },
+          "end": {
+            "line": 403,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "ctest_include_file": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 615,
             "character": 6
           },
           "end": {
-            "line": 316,
-            "character": 33
-          }
-        }
-      },
-      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": true
-    },
-    "OpenCV_VERSION_MAJOR": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 48,
-            "character": 4
-          },
-          "end": {
-            "line": 48,
+            "line": 615,
             "character": 24
           }
         }
       },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
       "is_function": false
     },
-    "OpenCV_LIB_COMPONENTS": {
+    "arg_TARGET": {
       "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
         "range": {
           "start": {
-            "line": 101,
-            "character": 4
+            "line": 400,
+            "character": 8
           },
           "end": {
-            "line": 101,
-            "character": 25
+            "line": 400,
+            "character": 18
           }
         }
       },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
       "is_function": false
     },
-    "OpenCV_INCLUDE_DIRS": {
+    "arg_WORKING_DIRECTORY": {
       "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
         "range": {
           "start": {
-            "line": 104,
-            "character": 4
+            "line": 576,
+            "character": 8
           },
           "end": {
-            "line": 104,
-            "character": 23
+            "line": 576,
+            "character": 29
           }
         }
       },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
       "is_function": false
     },
-    "PACKAGE_VERSION_COMPATIBLE": {
+    "extra_args": {
       "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig-version.cmake",
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
         "range": {
           "start": {
-            "line": 13,
+            "line": 487,
+            "character": 10
+          },
+          "end": {
+            "line": 487,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "oneValueArgs": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 556,
             "character": 6
           },
           "end": {
-            "line": 13,
-            "character": 32
+            "line": 556,
+            "character": 18
           }
         }
       },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig-version.cmake",
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
       "is_function": false
     },
     "OpenCV_VERSION_TWEAK": {
@@ -664,17 +375,119 @@
       "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
       "is_function": false
     },
-    "OpenCV_${__original_cvcomponent}_FOUND": {
+    "options": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 552,
+            "character": 6
+          },
+          "end": {
+            "line": 552,
+            "character": 13
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "accumulated": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 460,
+            "character": 12
+          },
+          "end": {
+            "line": 460,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake\n\nReset accumulated for the next match",
+      "is_function": false
+    },
+    "multiValueArgs": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 565,
+            "character": 6
+          },
+          "end": {
+            "line": 565,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "ocv_target_link_libraries": {
       "location": {
         "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
         "range": {
           "start": {
-            "line": 224,
-            "character": 8
+            "line": 320,
+            "character": 6
           },
           "end": {
-            "line": 224,
-            "character": 46
+            "line": 320,
+            "character": 31
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": true
+    },
+    "find_host_program": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 81,
+            "character": 10
+          },
+          "end": {
+            "line": 81,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": true
+    },
+    "check_required_components": {
+      "location": {
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake",
+        "range": {
+          "start": {
+            "line": 24,
+            "character": 6
+          },
+          "end": {
+            "line": 24,
+            "character": 31
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake",
+      "is_function": true
+    },
+    "__remap_warnings": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 162,
+            "character": 16
+          },
+          "end": {
+            "line": 162,
+            "character": 32
           }
         }
       },
@@ -698,21 +511,939 @@
       "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
       "is_function": false
     },
-    "CMAKE_CXX_STANDARD": {
+    "__cvcomponent": {
       "location": {
-        "uri": "file:///home/nux/Developer/study/cpp/opencv/CMakeLists.txt",
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
         "range": {
           "start": {
-            "line": 4,
+            "line": 195,
+            "character": 8
+          },
+          "end": {
+            "line": 195,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": false
+    },
+    "test_executor_orig": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 658,
+            "character": 8
+          },
+          "end": {
+            "line": 658,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "_OpenCV_HANDLE_COMPONENTS_MANUALLY": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 65,
+            "character": 6
+          },
+          "end": {
+            "line": 65,
+            "character": 40
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nThe missing components will be handled by this config.",
+      "is_function": false
+    },
+    "__compile_features": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 272,
+            "character": 6
+          },
+          "end": {
+            "line": 272,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": false
+    },
+    "ocv_include_modules_recurse": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 316,
+            "character": 6
+          },
+          "end": {
+            "line": 316,
+            "character": 33
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": true
+    },
+    "arg_DISCOVERY_TIMEOUT": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 582,
+            "character": 8
+          },
+          "end": {
+            "line": 582,
+            "character": 29
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "OpenCV_WORLD_COMPONENTS": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 187,
             "character": 4
           },
           "end": {
-            "line": 4,
+            "line": 187,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": false
+    },
+    "maybe_WORKING_DIRECTORY": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 417,
+            "character": 8
+          },
+          "end": {
+            "line": 417,
+            "character": 31
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "_cmake_expected_targets": {
+      "location": {
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake",
+        "range": {
+          "start": {
+            "line": 20,
+            "character": 4
+          },
+          "end": {
+            "line": 20,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake",
+      "is_function": false
+    },
+    "arg_TEST_LIST": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 579,
+            "character": 8
+          },
+          "end": {
+            "line": 579,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "OpenCV_FIND_COMPONENTS": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 180,
+            "character": 6
+          },
+          "end": {
+            "line": 180,
+            "character": 28
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": false
+    },
+    "ocv_include_modules": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 312,
+            "character": 6
+          },
+          "end": {
+            "line": 312,
+            "character": 25
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": true
+    },
+    "${_NAME}_FOUND": {
+      "location": {
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake",
+        "range": {
+          "start": {
+            "line": 28,
+            "character": 12
+          },
+          "end": {
+            "line": 28,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake",
+      "is_function": false
+    },
+    "__newArgs": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 381,
+            "character": 14
+          },
+          "end": {
+            "line": 381,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake\n\nthe latter.",
+      "is_function": false
+    },
+    "OPENCV_MAP_IMPORTED_CONFIG": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 140,
+            "character": 8
+          },
+          "end": {
+            "line": 140,
+            "character": 34
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nAdd mapping of RelWithDebInfo and MinSizeRel to Release here",
+      "is_function": false
+    },
+    "CMAKE_EXPORT_COMPILE_COMMANDS": {
+      "location": {
+        "uri": "file:///home/nux/Developer/study/cpp/school-physics-app/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 3,
+            "character": 4
+          },
+          "end": {
+            "line": 3,
+            "character": 33
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/nux/Developer/study/cpp/school-physics-app/CMakeLists.txt",
+      "is_function": false
+    },
+    "OpenCV_LIBS": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 220,
+            "character": 8
+          },
+          "end": {
+            "line": 220,
+            "character": 19
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nto find_package(OpenCV) with different component lists add up.",
+      "is_function": false
+    },
+    "gtest_test_type_regex": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 427,
+            "character": 6
+          },
+          "end": {
+            "line": 427,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "__target": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 268,
+            "character": 6
+          },
+          "end": {
+            "line": 268,
+            "character": 14
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": false
+    },
+    "PACKAGE_VERSION_UNSUITABLE": {
+      "location": {
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake",
+        "range": {
+          "start": {
+            "line": 41,
+            "character": 6
+          },
+          "end": {
+            "line": 41,
+            "character": 32
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake",
+      "is_function": false
+    },
+    "CMAKE_CXX_STANDARD_REQUIRED": {
+      "location": {
+        "uri": "file:///home/nux/Developer/study/cpp/school-physics-app/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 5,
+            "character": 4
+          },
+          "end": {
+            "line": 5,
+            "character": 31
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /home/nux/Developer/study/cpp/school-physics-app/CMakeLists.txt",
+      "is_function": false
+    },
+    "gtest_discover_tests": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 551,
+            "character": 9
+          },
+          "end": {
+            "line": 551,
+            "character": 29
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": true
+    },
+    "ocv_include_directories": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 298,
+            "character": 9
+          },
+          "end": {
+            "line": 298,
+            "character": 32
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nadds include directories in such way that directories from the OpenCV source tree go first",
+      "is_function": true
+    },
+    "__OpenCV_INCLUDE_DIRS": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 102,
+            "character": 4
+          },
+          "end": {
+            "line": 102,
+            "character": 25
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": false
+    },
+    "PACKAGE_VERSION_COMPATIBLE": {
+      "location": {
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake",
+        "range": {
+          "start": {
+            "line": 24,
+            "character": 8
+          },
+          "end": {
+            "line": 24,
+            "character": 34
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake",
+      "is_function": false
+    },
+    "OpenCV_SHARED": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 96,
+            "character": 4
+          },
+          "end": {
+            "line": 96,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nSome additional settings are required if OpenCV is built as static libs",
+      "is_function": false
+    },
+    "arg_EXTRA_ARGS": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 656,
+            "character": 8
+          },
+          "end": {
+            "line": 656,
             "character": 22
           }
         }
       },
-      "document_info": "defined variable\nfrom: /home/nux/Developer/study/cpp/opencv/CMakeLists.txt",
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "PACKAGE_VERSION": {
+      "location": {
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake",
+        "range": {
+          "start": {
+            "line": 40,
+            "character": 6
+          },
+          "end": {
+            "line": 40,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake",
+      "is_function": false
+    },
+    "each_line_regex": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 428,
+            "character": 6
+          },
+          "end": {
+            "line": 428,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "_IMPORT_PREFIX": {
+      "location": {
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake",
+        "range": {
+          "start": {
+            "line": 97,
+            "character": 4
+          },
+          "end": {
+            "line": 97,
+            "character": 18
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake\n\nCleanup temporary variables.",
+      "is_function": false
+    },
+    "${_var}": {
+      "location": {
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake",
+        "range": {
+          "start": {
+            "line": 18,
+            "character": 6
+          },
+          "end": {
+            "line": 18,
+            "character": 13
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake",
+      "is_function": false
+    },
+    "line": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 441,
+            "character": 8
+          },
+          "end": {
+            "line": 441,
+            "character": 12
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "find_host_package": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 76,
+            "character": 10
+          },
+          "end": {
+            "line": 76,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": true
+    },
+    "new_arg_EXTRA_ARGS": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 655,
+            "character": 8
+          },
+          "end": {
+            "line": 655,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "ocv_map_imported_config": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 144,
+            "character": 6
+          },
+          "end": {
+            "line": 144,
+            "character": 29
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": true
+    },
+    "ocv_check_dependencies": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 286,
+            "character": 6
+          },
+          "end": {
+            "line": 286,
+            "character": 28
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\n",
+      "is_function": true
+    },
+    "OpenCV_INCLUDE_DIRS": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 104,
+            "character": 4
+          },
+          "end": {
+            "line": 104,
+            "character": 23
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": false
+    },
+    "ctest_test_name": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 521,
+            "character": 12
+          },
+          "end": {
+            "line": 521,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "test_executor": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 659,
+            "character": 8
+          },
+          "end": {
+            "line": 659,
+            "character": 21
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "allKeywords": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 357,
+            "character": 6
+          },
+          "end": {
+            "line": 357,
+            "character": 17
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "set_and_check": {
+      "location": {
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake",
+        "range": {
+          "start": {
+            "line": 17,
+            "character": 6
+          },
+          "end": {
+            "line": 17,
+            "character": 19
+          }
+        }
+      },
+      "document_info": "defined macro\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake",
+      "is_function": true
+    },
+    "gtest_case_name_regex": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 426,
+            "character": 6
+          },
+          "end": {
+            "line": 426,
+            "character": 27
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "OpenCV_${__original_cvcomponent}_FOUND": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 224,
+            "character": 8
+          },
+          "end": {
+            "line": 224,
+            "character": 46
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": false
+    },
+    "_cmake_targets_not_defined": {
+      "location": {
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake",
+        "range": {
+          "start": {
+            "line": 19,
+            "character": 4
+          },
+          "end": {
+            "line": 19,
+            "character": 30
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake",
+      "is_function": false
+    },
+    "${arg_TEST_LIST}": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 544,
+            "character": 8
+          },
+          "end": {
+            "line": 544,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "OpenCV_USE_MANGLED_PATHS": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 99,
+            "character": 4
+          },
+          "end": {
+            "line": 99,
+            "character": 28
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nEnables mangled install paths, that help with side by side installs",
+      "is_function": false
+    },
+    "THREADS_PREFER_PTHREAD_FLAG": {
+      "location": {
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake",
+        "range": {
+          "start": {
+            "line": 37,
+            "character": 6
+          },
+          "end": {
+            "line": 37,
+            "character": 33
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake",
+      "is_function": false
+    },
+    "gtest_add_tests": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 337,
+            "character": 9
+          },
+          "end": {
+            "line": 337,
+            "character": 24
+          }
+        }
+      },
+      "document_info": "defined function\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake\n\n------------------------------------------------------------------------------",
+      "is_function": true
+    },
+    "autoAddSources": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 394,
+            "character": 8
+          },
+          "end": {
+            "line": 394,
+            "character": 22
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "OpenCV_LIB_COMPONENTS": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+        "range": {
+          "start": {
+            "line": 101,
+            "character": 4
+          },
+          "end": {
+            "line": 101,
+            "character": 25
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": false
+    },
+    "OpenCV_VERSION": {
+      "location": {
+        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig-version.cmake",
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 4
+          },
+          "end": {
+            "line": 0,
+            "character": 18
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig-version.cmake",
+      "is_function": false
+    },
+    "CMAKE_GTEST_DISCOVER_TESTS_DISCOVERY_MODE": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 586,
+            "character": 10
+          },
+          "end": {
+            "line": 586,
+            "character": 51
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "PACKAGE_VERSION_EXACT": {
+      "location": {
+        "uri": "file:///usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake",
+        "range": {
+          "start": {
+            "line": 26,
+            "character": 10
+          },
+          "end": {
+            "line": 26,
+            "character": 31
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake",
+      "is_function": false
+    },
+    "counter": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 605,
+            "character": 8
+          },
+          "end": {
+            "line": 605,
+            "character": 15
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+      "is_function": false
+    },
+    "ctest_tests_file": {
+      "location": {
+        "uri": "file:///usr/share/cmake-4.2/Modules/GoogleTest.cmake",
+        "range": {
+          "start": {
+            "line": 724,
+            "character": 10
+          },
+          "end": {
+            "line": 724,
+            "character": 26
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake",
       "is_function": false
     },
     "__original_cvcomponent": {
@@ -732,107 +1463,56 @@
       "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nOpenCV_<component>_FOUND variable which can be checked by the user.",
       "is_function": false
     },
-    "__remap_config": {
+    "OpenCV_VERSION_MAJOR": {
       "location": {
         "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
         "range": {
           "start": {
-            "line": 149,
-            "character": 12
+            "line": 48,
+            "character": 4
           },
           "end": {
-            "line": 149,
-            "character": 26
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": false
-    },
-    "ocv_list_filterout": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 325,
-            "character": 6
-          },
-          "end": {
-            "line": 325,
+            "line": 48,
             "character": 24
           }
         }
       },
-      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake\n\nremove all matching elements from the list",
-      "is_function": true
+      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
+      "is_function": false
     },
-    "OpenCV_FIND_COMPONENTS": {
+    "OCV_DEPENDENCIES_FOUND": {
       "location": {
         "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
         "range": {
           "start": {
-            "line": 180,
-            "character": 6
+            "line": 291,
+            "character": 10
           },
           "end": {
-            "line": 180,
-            "character": 28
+            "line": 291,
+            "character": 32
           }
         }
       },
       "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
       "is_function": false
     },
-    "CMAKE_CXX_STANDARD_REQUIRED": {
+    "CMAKE_CXX_STANDARD": {
       "location": {
-        "uri": "file:///home/nux/Developer/study/cpp/opencv/CMakeLists.txt",
+        "uri": "file:///home/nux/Developer/study/cpp/school-physics-app/CMakeLists.txt",
         "range": {
           "start": {
-            "line": 5,
+            "line": 4,
             "character": 4
           },
           "end": {
-            "line": 5,
-            "character": 31
+            "line": 4,
+            "character": 22
           }
         }
       },
-      "document_info": "defined variable\nfrom: /home/nux/Developer/study/cpp/opencv/CMakeLists.txt",
+      "document_info": "defined variable\nfrom: /home/nux/Developer/study/cpp/school-physics-app/CMakeLists.txt",
       "is_function": false
-    },
-    "_cmake_expected_targets": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVModules.cmake",
-        "range": {
-          "start": {
-            "line": 20,
-            "character": 4
-          },
-          "end": {
-            "line": 20,
-            "character": 27
-          }
-        }
-      },
-      "document_info": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVModules.cmake",
-      "is_function": false
-    },
-    "ocv_map_imported_config": {
-      "location": {
-        "uri": "file:///usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-        "range": {
-          "start": {
-            "line": 144,
-            "character": 6
-          },
-          "end": {
-            "line": 144,
-            "character": 29
-          }
-        }
-      },
-      "document_info": "defined macro\nfrom: /usr/local/lib/cmake/opencv5/OpenCVConfig.cmake",
-      "is_function": true
     }
   }
 }

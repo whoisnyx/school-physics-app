@@ -1,7 +1,7 @@
 src/CMakeFiles/CVTest.dir/position/position.cc.o: \
- /home/nux/Developer/study/cpp/opencv/src/position/position.cc \
+ /home/nux/Developer/study/cpp/school-physics-app/src/position/position.cc \
  /usr/include/stdc-predef.h \
- /home/nux/Developer/study/cpp/opencv/src/position/position.h \
+ /home/nux/Developer/study/cpp/school-physics-app/src/position/position.h \
  /usr/local/include/opencv5/opencv2/opencv.hpp \
  /usr/local/include/opencv5/opencv2/opencv_modules.hpp \
  /usr/local/include/opencv5/opencv2/core.hpp \

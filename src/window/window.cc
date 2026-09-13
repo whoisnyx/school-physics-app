@@ -1,4 +1,4 @@
-// Copyright 2026, NUX.
+// Copyright 2026 NUX.
 
 #include "window/window.h"
 
@@ -8,31 +8,30 @@
 
 namespace application::window {
 
-void CameraRunning(cv::VideoCapture& object) {
+void RunCameraLoop(cv::VideoCapture& camera) {
+  // HSV thresholds to isolate the object of interest.
   cv::Scalar lower_bound(100, 150, 50);
   cv::Scalar upper_bound(140, 255, 255);
+  application::window::object_position::PositionCalculator calculator;
 
   while (true) {
-    // Connect object to frame.
     cv::Mat camera_frame, hsv, mask;
-    object >> camera_frame;
+    camera >> camera_frame;
 
-    // Condition: if frame is empty, then we close it.
     if (camera_frame.empty()) {
       break;
     }
 
-    // Find object and print position(x: number, y: number);
-    application::window::object_position::PositionCalculating(
-        mask, hsv, camera_frame, lower_bound, upper_bound);
+    // Process the frame to detect motion and calculate kinematics.
+    calculator.TrackObject(mask, hsv, camera_frame, lower_bound, upper_bound);
 
-    // Camera output.
     cv::imshow("Camera", camera_frame);
 
-    // Closing frame key.
+    // Terminate loop on 'q' key press.
     if (cv::waitKey(10) == 'q') {
       break;
     }
   }
 }
+
 }  // namespace application::window

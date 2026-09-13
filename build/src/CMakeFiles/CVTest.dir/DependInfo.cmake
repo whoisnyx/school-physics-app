@@ -8,9 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nux/Developer/study/cpp/opencv/src/main.cc" "src/CMakeFiles/CVTest.dir/main.cc.o" "gcc" "src/CMakeFiles/CVTest.dir/main.cc.o.d"
-  "/home/nux/Developer/study/cpp/opencv/src/position/position.cc" "src/CMakeFiles/CVTest.dir/position/position.cc.o" "gcc" "src/CMakeFiles/CVTest.dir/position/position.cc.o.d"
-  "/home/nux/Developer/study/cpp/opencv/src/window/window.cc" "src/CMakeFiles/CVTest.dir/window/window.cc.o" "gcc" "src/CMakeFiles/CVTest.dir/window/window.cc.o.d"
+  "/home/nux/Developer/study/cpp/school-physics-app/src/main.cc" "src/CMakeFiles/CVTest.dir/main.cc.o" "gcc" "src/CMakeFiles/CVTest.dir/main.cc.o.d"
   "" "src/CVTest" "gcc" "src/CMakeFiles/CVTest.dir/link.d"
   )
 

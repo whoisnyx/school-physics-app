@@ -1,5 +1,5 @@
 src/CMakeFiles/CVTest.dir/main.cc.o: \
- /home/nux/Developer/study/cpp/opencv/src/main.cc \
+ /home/nux/Developer/study/cpp/school-physics-app/src/main.cc \
  /usr/include/stdc-predef.h /usr/local/include/opencv5/opencv2/opencv.hpp \
  /usr/local/include/opencv5/opencv2/opencv_modules.hpp \
  /usr/local/include/opencv5/opencv2/core.hpp \
@@ -404,4 +404,4 @@ src/CMakeFiles/CVTest.dir/main.cc.o: \
  /usr/local/include/opencv5/opencv2/video.hpp \
  /usr/local/include/opencv5/opencv2/video/tracking.hpp \
  /usr/local/include/opencv5/opencv2/video/background_segm.hpp \
- /home/nux/Developer/study/cpp/opencv/src/window/window.h
+ /home/nux/Developer/study/cpp/school-physics-app/src/window/window.h

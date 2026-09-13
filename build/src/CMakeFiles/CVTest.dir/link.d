@@ -3,19 +3,18 @@ CVTest: \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
   CMakeFiles/CVTest.dir/main.cc.o \
-  CMakeFiles/CVTest.dir/window/window.cc.o \
-  CMakeFiles/CVTest.dir/position/position.cc.o \
+  liblogic_lib.a \
   /usr/local/lib/libopencv_calib.so.5.1.0 \
   /usr/local/lib/libopencv_objdetect.so.5.1.0 \
   /usr/local/lib/libopencv_photo.so.5.1.0 \
   /usr/local/lib/libopencv_ptcloud.so.5.1.0 \
+  /usr/local/lib/libopencv_highgui.so.5.1.0 \
   /usr/local/lib/libopencv_stereo.so.5.1.0 \
   /usr/local/lib/libopencv_stitching.so.5.1.0 \
   /usr/local/lib/libopencv_video.so.5.1.0 \
-  /usr/local/lib/libopencv_highgui.so.5.1.0 \
-  /usr/local/lib/libopencv_videoio.so.5.1.0 \
   /usr/local/lib/libopencv_features.so.5.1.0 \
   /usr/local/lib/libopencv_dnn.so.5.1.0 \
+  /usr/local/lib/libopencv_videoio.so.5.1.0 \
   /usr/local/lib/libopencv_imgcodecs.so.5.1.0 \
   /usr/local/lib/libopencv_imgproc.so.5.1.0 \
   /usr/local/lib/libopencv_geometry.so.5.1.0 \
@@ -110,9 +109,7 @@ CVTest: \
 
 CMakeFiles/CVTest.dir/main.cc.o:
 
-CMakeFiles/CVTest.dir/window/window.cc.o:
-
-CMakeFiles/CVTest.dir/position/position.cc.o:
+liblogic_lib.a:
 
 /usr/local/lib/libopencv_calib.so.5.1.0:
 
@@ -122,19 +119,19 @@ CMakeFiles/CVTest.dir/position/position.cc.o:
 
 /usr/local/lib/libopencv_ptcloud.so.5.1.0:
 
+/usr/local/lib/libopencv_highgui.so.5.1.0:
+
 /usr/local/lib/libopencv_stereo.so.5.1.0:
 
 /usr/local/lib/libopencv_stitching.so.5.1.0:
 
 /usr/local/lib/libopencv_video.so.5.1.0:
 
-/usr/local/lib/libopencv_highgui.so.5.1.0:
-
-/usr/local/lib/libopencv_videoio.so.5.1.0:
-
 /usr/local/lib/libopencv_features.so.5.1.0:
 
 /usr/local/lib/libopencv_dnn.so.5.1.0:
+
+/usr/local/lib/libopencv_videoio.so.5.1.0:
 
 /usr/local/lib/libopencv_imgcodecs.so.5.1.0:
 

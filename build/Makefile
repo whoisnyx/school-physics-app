@@ -57,13 +57,23 @@ RM = /home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nux/Developer/study/cpp/opencv
+CMAKE_SOURCE_DIR = /home/nux/Developer/study/cpp/school-physics-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nux/Developer/study/cpp/opencv/build
+CMAKE_BINARY_DIR = /home/nux/Developer/study/cpp/school-physics-app/build
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/ctest $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -87,16 +97,16 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/opencv/build/CMakeFiles /home/nux/Developer/study/cpp/opencv/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles /home/nux/Developer/study/cpp/school-physics-app/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/opencv/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/opencv/build/CMakeFiles /home/nux/Developer/study/cpp/opencv/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles /home/nux/Developer/study/cpp/school-physics-app/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/opencv/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target
@@ -124,6 +134,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named logic_lib
+
+# Build rule for target.
+logic_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logic_lib
+.PHONY : logic_lib
+
+# fast build rule for target.
+logic_lib/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/logic_lib.dir/build.make src/CMakeFiles/logic_lib.dir/build
+.PHONY : logic_lib/fast
+
+#=============================================================================
 # Target rules for targets named CVTest
 
 # Build rule for target.
@@ -136,6 +159,19 @@ CVTest/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/build
 .PHONY : CVTest/fast
 
+#=============================================================================
+# Target rules for targets named unit_tests
+
+# Build rule for target.
+unit_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unit_tests
+.PHONY : unit_tests
+
+# fast build rule for target.
+unit_tests/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/unit_tests.dir/build.make tests/CMakeFiles/unit_tests.dir/build
+.PHONY : unit_tests/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -145,7 +181,10 @@ help:
 	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test"
 	@echo "... CVTest"
+	@echo "... logic_lib"
+	@echo "... unit_tests"
 .PHONY : help
 
 

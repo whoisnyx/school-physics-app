@@ -1,4 +1,4 @@
-# Install script for directory: /home/nux/Developer/study/cpp/opencv
+# Install script for directory: /home/nux/Developer/study/cpp/school-physics-app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,13 +44,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/nux/Developer/study/cpp/opencv/build/src/cmake_install.cmake")
+  include("/home/nux/Developer/study/cpp/school-physics-app/build/src/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/nux/Developer/study/cpp/school-physics-app/build/tests/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/nux/Developer/study/cpp/opencv/build/install_local_manifest.txt"
+  file(WRITE "/home/nux/Developer/study/cpp/school-physics-app/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -66,6 +71,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/nux/Developer/study/cpp/opencv/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/nux/Developer/study/cpp/school-physics-app/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

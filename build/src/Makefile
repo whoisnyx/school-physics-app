@@ -57,13 +57,23 @@ RM = /home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nux/Developer/study/cpp/opencv
+CMAKE_SOURCE_DIR = /home/nux/Developer/study/cpp/school-physics-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nux/Developer/study/cpp/opencv/build
+CMAKE_BINARY_DIR = /home/nux/Developer/study/cpp/school-physics-app/build
 
 #=============================================================================
 # Targets provided globally by CMake.
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/ctest $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -87,21 +97,21 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nux/Developer/study/cpp/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/opencv/build/CMakeFiles /home/nux/Developer/study/cpp/opencv/build/src//CMakeFiles/progress.marks
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/opencv/build/CMakeFiles 0
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles /home/nux/Developer/study/cpp/school-physics-app/build/src//CMakeFiles/progress.marks
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles 0
 .PHONY : all
 
 # The main codegen target
 codegen: cmake_check_build_system
-	cd /home/nux/Developer/study/cpp/opencv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/opencv/build/CMakeFiles /home/nux/Developer/study/cpp/opencv/build/src//CMakeFiles/progress.marks
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/opencv/build/CMakeFiles 0
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles /home/nux/Developer/study/cpp/school-physics-app/build/src//CMakeFiles/progress.marks
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/codegen
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles 0
 .PHONY : codegen
 
 # The main clean target
 clean:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -110,22 +120,36 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/logic_lib.dir/rule:
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/logic_lib.dir/rule
+.PHONY : src/CMakeFiles/logic_lib.dir/rule
+
+# Convenience name for target.
+logic_lib: src/CMakeFiles/logic_lib.dir/rule
+.PHONY : logic_lib
+
+# fast build rule for target.
+logic_lib/fast:
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/logic_lib.dir/build.make src/CMakeFiles/logic_lib.dir/build
+.PHONY : logic_lib/fast
+
+# Convenience name for target.
 src/CMakeFiles/CVTest.dir/rule:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/CVTest.dir/rule
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/CVTest.dir/rule
 .PHONY : src/CMakeFiles/CVTest.dir/rule
 
 # Convenience name for target.
@@ -134,7 +158,7 @@ CVTest: src/CMakeFiles/CVTest.dir/rule
 
 # fast build rule for target.
 CVTest/fast:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/build
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/build
 .PHONY : CVTest/fast
 
 main.o: main.cc.o
@@ -142,7 +166,7 @@ main.o: main.cc.o
 
 # target to build an object file
 main.cc.o:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/main.cc.o
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/main.cc.o
 .PHONY : main.cc.o
 
 main.i: main.cc.i
@@ -150,7 +174,7 @@ main.i: main.cc.i
 
 # target to preprocess a source file
 main.cc.i:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/main.cc.i
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/main.cc.i
 .PHONY : main.cc.i
 
 main.s: main.cc.s
@@ -158,7 +182,7 @@ main.s: main.cc.s
 
 # target to generate assembly for a file
 main.cc.s:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/main.cc.s
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/main.cc.s
 .PHONY : main.cc.s
 
 position/position.o: position/position.cc.o
@@ -166,7 +190,7 @@ position/position.o: position/position.cc.o
 
 # target to build an object file
 position/position.cc.o:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/position/position.cc.o
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/logic_lib.dir/build.make src/CMakeFiles/logic_lib.dir/position/position.cc.o
 .PHONY : position/position.cc.o
 
 position/position.i: position/position.cc.i
@@ -174,7 +198,7 @@ position/position.i: position/position.cc.i
 
 # target to preprocess a source file
 position/position.cc.i:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/position/position.cc.i
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/logic_lib.dir/build.make src/CMakeFiles/logic_lib.dir/position/position.cc.i
 .PHONY : position/position.cc.i
 
 position/position.s: position/position.cc.s
@@ -182,7 +206,7 @@ position/position.s: position/position.cc.s
 
 # target to generate assembly for a file
 position/position.cc.s:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/position/position.cc.s
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/logic_lib.dir/build.make src/CMakeFiles/logic_lib.dir/position/position.cc.s
 .PHONY : position/position.cc.s
 
 window/window.o: window/window.cc.o
@@ -190,7 +214,7 @@ window/window.o: window/window.cc.o
 
 # target to build an object file
 window/window.cc.o:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/window/window.cc.o
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/logic_lib.dir/build.make src/CMakeFiles/logic_lib.dir/window/window.cc.o
 .PHONY : window/window.cc.o
 
 window/window.i: window/window.cc.i
@@ -198,7 +222,7 @@ window/window.i: window/window.cc.i
 
 # target to preprocess a source file
 window/window.cc.i:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/window/window.cc.i
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/logic_lib.dir/build.make src/CMakeFiles/logic_lib.dir/window/window.cc.i
 .PHONY : window/window.cc.i
 
 window/window.s: window/window.cc.s
@@ -206,7 +230,7 @@ window/window.s: window/window.cc.s
 
 # target to generate assembly for a file
 window/window.cc.s:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CVTest.dir/build.make src/CMakeFiles/CVTest.dir/window/window.cc.s
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/logic_lib.dir/build.make src/CMakeFiles/logic_lib.dir/window/window.cc.s
 .PHONY : window/window.cc.s
 
 # Help Target
@@ -218,7 +242,9 @@ help:
 	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test"
 	@echo "... CVTest"
+	@echo "... logic_lib"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -239,6 +265,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

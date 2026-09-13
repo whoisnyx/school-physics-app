@@ -1,27 +1,27 @@
 {
-  "date": "2026-09-11T16:57:47.323717039+03:00",
+  "date": "2026-09-13T13:55:37.719165340+03:00",
   "data": {
-    "/home/nux/Developer/study/cpp/opencv/CMakeLists.txt": [
+    "/home/nux/Developer/study/cpp/school-physics-app/CMakeLists.txt": [
       {
         "label": "CMAKE_EXPORT_COMPILE_COMMANDS",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /home/nux/Developer/study/cpp/opencv/CMakeLists.txt"
+        "documentation": "defined variable\nfrom: /home/nux/Developer/study/cpp/school-physics-app/CMakeLists.txt"
       },
       {
         "label": "CMAKE_CXX_STANDARD",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /home/nux/Developer/study/cpp/opencv/CMakeLists.txt"
+        "documentation": "defined variable\nfrom: /home/nux/Developer/study/cpp/school-physics-app/CMakeLists.txt"
       },
       {
         "label": "CMAKE_CXX_STANDARD_REQUIRED",
         "kind": 12,
         "detail": "Value",
-        "documentation": "defined variable\nfrom: /home/nux/Developer/study/cpp/opencv/CMakeLists.txt"
+        "documentation": "defined variable\nfrom: /home/nux/Developer/study/cpp/school-physics-app/CMakeLists.txt"
       }
     ],
-    "/home/nux/Developer/study/cpp/opencv/src/CMakeLists.txt": [
+    "/home/nux/Developer/study/cpp/school-physics-app/src/CMakeLists.txt": [
       {
         "label": "OpenCV_LIBRARIES",
         "kind": 6,
@@ -849,6 +849,548 @@
         "kind": 12,
         "detail": "Value",
         "documentation": "defined variable\nfrom: /usr/local/lib/cmake/opencv5/OpenCVModules-release.cmake\n\nCommands beyond this point should not need to know the version."
+      }
+    ],
+    "/home/nux/Developer/study/cpp/school-physics-app/tests/CMakeLists.txt": [
+      {
+        "label": "GTest_LIBRARIES",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: GTest"
+      },
+      {
+        "label": "GTest_INCLUDE_DIRS",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: GTest"
+      },
+      {
+        "label": "set_and_check",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined macro\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake"
+      },
+      {
+        "label": "check_required_components",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined macro\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake"
+      },
+      {
+        "label": "PACKAGE_PREFIX_DIR",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake"
+      },
+      {
+        "label": "${_var}",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake"
+      },
+      {
+        "label": "${_NAME}_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake"
+      },
+      {
+        "label": "find_dependency",
+        "kind": 3,
+        "detail": "Command",
+        "documentation": "defined command from CMakeFindDependencyMacro.cmake\n.rst:\nCMakeFindDependencyMacro\n------------------------\n\nThis module provides a command implemented as a macro that finds dependency\nfor a package.\n\nLoad this module in a CMake package configuration file with:\n\n.. code-block:: cmake\n  :caption: ``FooConfig.cmake`` or ``foo-config.cmake``:\n\n  include(CMakeFindDependencyMacro)\n\n.. note::\n\n  This module is designed to be used in a :ref:`Package Configuration File\n  <Config File Packages>` (``<PackageName>Config.cmake``).\n\nCommands\n^^^^^^^^\n\nThis module provides the following command:\n\n.. command:: find_dependency\n\n  The ``find_dependency()`` macro wraps a :command:`find_package` call for\n  a package dependency:\n\n  .. code-block:: cmake\n\n    find_dependency(<dep> [...])\n\n  It is designed to be used in a\n  :ref:`Package Configuration File <Config File Packages>`\n  (``<PackageName>Config.cmake``).  ``find_dependency`` forwards the correct\n  parameters for ``QUIET`` and ``REQUIRED`` which were passed to\n  the original :command:`find_package` call.  Any additional arguments\n  specified are forwarded to :command:`find_package`.\n\n  If the dependency could not be found it sets an informative diagnostic\n  message and calls :command:`return` to end processing of the calling\n  package configuration file and return to the :command:`find_package`\n  command that loaded it.\n\n  .. note::\n\n    The call to :command:`return` makes this macro unsuitable to call\n    from :ref:`Find Modules`.\n\nPackage Dependency Search Optimizations\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\nIf ``find_dependency`` is called with arguments identical to a previous\ncall in the same directory, perhaps due to diamond-shaped package\ndependencies, the underlying call to :command:`find_package` is optimized\nout.  This optimization is important to support large package dependency\ngraphs while avoiding a combinatorial explosion of repeated searches.\nHowever, the heuristic cannot account for ambient variables that\naffect package behavior, such as ``<PackageName>_USE_STATIC_LIBS``,\noffered by some packages.  Therefore package configuration files should\navoid setting such variables before their calls to ``find_dependency``.\n\n.. versionchanged:: 3.15\n  Previously, the underlying call to :command:`find_package` was always\n  optimized out if the package had already been found.  CMake 3.15\n  removed the optimization to support cases in which ``find_dependency``\n  call arguments request different components.\n\n.. versionchanged:: 3.26\n  The pre-3.15 optimization was restored, but with the above-described\n  heuristic to account for varying ``find_dependency`` call arguments.\n\n#"
+      },
+      {
+        "label": "__find_dependency_common",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined macro\nfrom: /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "__find_dependency_no_return",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined macro\nfrom: /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "find_dependency",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined macro\nfrom: /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "cmake_fd_quiet_arg",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "cmake_fd_quiet_arg",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "cmake_fd_required_arg",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "cmake_fd_required_arg",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "${dep}_LIBRARIES",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: ${dep}"
+      },
+      {
+        "label": "${dep}_INCLUDE_DIRS",
+        "kind": 6,
+        "detail": "Variable",
+        "documentation": "package: ${dep}"
+      },
+      {
+        "label": "\"_CMAKE_${dep}_${cmake_fd_call_hash}_FOUND\"",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "${dep}_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_NOT_FOUND_MESSAGE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "${CMAKE_FIND_PACKAGE_NAME}_FOUND",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake"
+      },
+      {
+        "label": "THREADS_PREFER_PTHREAD_FLAG",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake"
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake\n\nCommands may need to know the format version."
+      },
+      {
+        "label": "_cmake_targets_defined",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake\n\nProtect against multiple inclusion, which would fail when already imported targets are added once more."
+      },
+      {
+        "label": "_cmake_targets_not_defined",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake"
+      },
+      {
+        "label": "_cmake_expected_targets",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake"
+      },
+      {
+        "label": "_IMPORT_PREFIX",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake"
+      },
+      {
+        "label": "_IMPORT_PREFIX",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake"
+      },
+      {
+        "label": "_IMPORT_PREFIX",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake\n\nCleanup temporary variables."
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets.cmake\n\nCommands beyond this point should not need to know the version."
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets-none.cmake\n\nCommands may need to know the format version."
+      },
+      {
+        "label": "CMAKE_IMPORT_FILE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestTargets-none.cmake\n\nCommands beyond this point should not need to know the version."
+      },
+      {
+        "label": "PACKAGE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_COMPATIBLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_EXACT",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake"
+      },
+      {
+        "label": "PACKAGE_VERSION_UNSUITABLE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfigVersion.cmake"
+      },
+      {
+        "label": "gtest_add_tests",
+        "kind": 3,
+        "detail": "Command",
+        "documentation": "defined command from GoogleTest.cmake\n.rst:\nGoogleTest\n----------\n\n.. versionadded:: 3.9\n\nThis module provides commands to help use the Google Test infrastructure.\n\nLoad this module in a CMake project with:\n\n.. code-block:: cmake\n\n  include(GoogleTest)\n\nTwo mechanisms for adding tests are provided. :command:`gtest_add_tests` has\nbeen around for some time, originally via ``find_package(GTest)``.\n:command:`gtest_discover_tests` was introduced in CMake 3.10.\n\nThe (older) :command:`gtest_add_tests` scans source files to identify tests.\nThis is usually effective, with some caveats, including in cross-compiling\nenvironments, and makes setting additional properties on tests more convenient.\nHowever, its handling of parameterized tests is less comprehensive, and it\nrequires re-running CMake to detect changes to the list of tests.\n\nThe (newer) :command:`gtest_discover_tests` discovers tests by asking the\ncompiled test executable to enumerate its tests.  This is more robust and\nprovides better handling of parameterized tests, and does not require CMake\nto be re-run when tests change.  However, it may not work in a cross-compiling\nenvironment, and setting test properties is less convenient.\n\nMore details can be found in the documentation of the respective functions.\n\nBoth commands are intended to replace use of :command:`add_test` to register\ntests, and will create a separate CTest test for each Google Test test case.\nNote that this is in some cases less efficient, as common set-up and tear-down\nlogic cannot be shared by multiple test cases executing in the same instance.\nHowever, it provides more fine-grained pass/fail information to CTest, which is\nusually considered as more beneficial.  By default, the CTest test name is the\nsame as the Google Test name (i.e. ``suite.testcase``); see also\n``TEST_PREFIX`` and ``TEST_SUFFIX``.\n\n.. command:: gtest_add_tests\n\n  Automatically add tests with CTest by scanning source code for Google Test\n  macros:\n\n  .. code-block:: cmake\n\n    gtest_add_tests(TARGET target\n                    [SOURCES src1...]\n                    [EXTRA_ARGS args...]\n                    [WORKING_DIRECTORY dir]\n                    [TEST_PREFIX prefix]\n                    [TEST_SUFFIX suffix]\n                    [SKIP_DEPENDENCY]\n                    [TEST_LIST outVar]\n    )\n\n  ``gtest_add_tests`` attempts to identify tests by scanning source files.\n  Although this is generally effective, it uses only a basic regular expression\n  match, which can be defeated by atypical test declarations, and is unable to\n  fully \"split\" parameterized tests.  Additionally, it requires that CMake be\n  re-run to discover any newly added, removed or renamed tests (by default,\n  this means that CMake is re-run when any test source file is changed, but see\n  ``SKIP_DEPENDENCY``).  However, it has the advantage of declaring tests at\n  CMake time, which somewhat simplifies setting additional properties on tests,\n  and always works in a cross-compiling environment.\n\n  The options are:\n\n  ``TARGET target``\n    Specifies the Google Test executable, which must be a known CMake\n    executable target.  CMake will substitute the location of the built\n    executable when running the test.\n\n  ``SOURCES src1...``\n    When provided, only the listed files will be scanned for test cases.  If\n    this option is not given, the :prop_tgt:`SOURCES` property of the\n    specified ``target`` will be used to obtain the list of sources.\n\n  ``EXTRA_ARGS args...``\n    Any extra arguments to pass on the command line to each test case.\n\n    .. versionchanged:: 3.31\n      Empty values in ``args...`` are preserved, see :policy:`CMP0178`.\n\n  ``WORKING_DIRECTORY dir``\n    Specifies the directory in which to run the discovered test cases.  If this\n    option is not provided, the current binary directory is used.\n\n  ``TEST_PREFIX prefix``\n    Specifies a ``prefix`` to be prepended to the name of each discovered test\n    case.  This can be useful when the same source files are being used in\n    multiple calls to ``gtest_add_test()`` but with different ``EXTRA_ARGS``.\n\n  ``TEST_SUFFIX suffix``\n    Similar to ``TEST_PREFIX`` except the ``suffix`` is appended to the name of\n    every discovered test case.  Both ``TEST_PREFIX`` and ``TEST_SUFFIX`` may\n    be specified.\n\n  ``SKIP_DEPENDENCY``\n    Normally, the function creates a dependency which will cause CMake to be\n    re-run if any of the sources being scanned are changed.  This is to ensure\n    that the list of discovered tests is updated.  If this behavior is not\n    desired (as may be the case while actually writing the test cases), this\n    option can be used to prevent the dependency from being added.\n\n  ``TEST_LIST outVar``\n    The variable named by ``outVar`` will be populated in the calling scope\n    with the list of discovered test cases.  This allows the caller to do\n    things like manipulate test properties of the discovered tests.\n\n  .. versionchanged:: 3.31\n    Empty values in the :prop_tgt:`TEST_LAUNCHER` and\n    :prop_tgt:`CROSSCOMPILING_EMULATOR` target properties are preserved,\n    see policy :policy:`CMP0178`.\n\n  Usage example:\n\n  .. code-block:: cmake\n\n    include(GoogleTest)\n    add_executable(FooTest FooUnitTest.cxx)\n    gtest_add_tests(TARGET      FooTest\n                    TEST_SUFFIX .noArgs\n                    TEST_LIST   noArgsTests\n    )\n    gtest_add_tests(TARGET      FooTest\n                    EXTRA_ARGS  --someArg someValue\n                    TEST_SUFFIX .withArgs\n                    TEST_LIST   withArgsTests\n    )\n    set_tests_properties(${noArgsTests}   PROPERTIES TIMEOUT 10)\n    set_tests_properties(${withArgsTests} PROPERTIES TIMEOUT 20)\n\n  For backward compatibility, the following form is also supported:\n\n  .. code-block:: cmake\n\n    gtest_add_tests(exe args files...)\n\n  ``exe``\n    The path to the test executable or the name of a CMake target.\n  ``args``\n    A ;-list of extra arguments to be passed to executable.  The entire\n    list must be passed as a single argument.  Enclose it in quotes,\n    or pass ``\"\"`` for no arguments.\n  ``files...``\n    A list of source files to search for tests and test fixtures.\n    Alternatively, use ``AUTO`` to specify that ``exe`` is the name\n    of a CMake executable target whose sources should be scanned.\n\n  .. code-block:: cmake\n\n    include(GoogleTest)\n    set(FooTestArgs --foo 1 --bar 2)\n    add_executable(FooTest FooUnitTest.cxx)\n    gtest_add_tests(FooTest \"${FooTestArgs}\" AUTO)\n\n.. command:: gtest_discover_tests\n\n  Automatically add tests with CTest by querying the compiled test executable\n  for available tests:\n\n  .. code-block:: cmake\n\n    gtest_discover_tests(target\n                         [EXTRA_ARGS args...]\n                         [WORKING_DIRECTORY dir]\n                         [TEST_PREFIX prefix]\n                         [TEST_SUFFIX suffix]\n                         [TEST_FILTER expr]\n                         [NO_PRETTY_TYPES] [NO_PRETTY_VALUES]\n                         [PROPERTIES name1 value1...]\n                         [TEST_LIST var]\n                         [DISCOVERY_TIMEOUT seconds]\n                         [XML_OUTPUT_DIR dir]\n                         [DISCOVERY_MODE <POST_BUILD|PRE_TEST>]\n                         [DISCOVERY_EXTRA_ARGS args...]\n    )\n\n  .. versionadded:: 3.10\n\n  ``gtest_discover_tests()`` sets up a post-build or pre-test command on the\n  test executable that generates the list of tests by parsing the output from\n  running the test executable with the ``--gtest_list_tests`` argument.\n  Compared to the source parsing approach of :command:`gtest_add_tests`,\n  this ensures that the full list of tests, including instantiations of\n  parameterized tests, is obtained.  Since test discovery occurs at build\n  or test time, it is not necessary to re-run CMake when the list of tests\n  changes.  However, it requires that :prop_tgt:`CROSSCOMPILING_EMULATOR`\n  is properly set in order to function in a cross-compiling environment.\n\n  Additionally, setting properties on tests is somewhat less convenient, since\n  the tests are not available at CMake time.  Additional test properties may be\n  assigned to the set of tests as a whole using the ``PROPERTIES`` option.  If\n  more fine-grained test control is needed, custom content may be provided\n  through an external CTest script using the :prop_dir:`TEST_INCLUDE_FILES`\n  directory property.  The set of discovered tests is made accessible to such a\n  script via the ``<target>_TESTS`` variable (see the ``TEST_LIST`` option\n  below for further discussion and limitations).\n\n  The options are:\n\n  ``target``\n    Specifies the Google Test executable, which must be a known CMake\n    executable target.  CMake will substitute the location of the built\n    executable when running the test.\n\n  ``EXTRA_ARGS args...``\n    Any extra arguments to pass on the command line to each test case.\n\n    .. versionchanged:: 3.31\n      Empty values in ``args...`` are preserved, see :policy:`CMP0178`.\n\n  ``WORKING_DIRECTORY dir``\n    Specifies the directory in which to run the discovered test cases.  If this\n    option is not provided, the current binary directory is used.\n\n  ``TEST_PREFIX prefix``\n    Specifies a ``prefix`` to be prepended to the name of each discovered test\n    case.  This can be useful when the same test executable is being used in\n    multiple calls to ``gtest_discover_tests()`` but with different\n    ``EXTRA_ARGS``.\n\n  ``TEST_SUFFIX suffix``\n    Similar to ``TEST_PREFIX`` except the ``suffix`` is appended to the name of\n    every discovered test case.  Both ``TEST_PREFIX`` and ``TEST_SUFFIX`` may\n    be specified.\n\n  ``TEST_FILTER expr``\n    .. versionadded:: 3.22\n\n    Filter expression to pass as a ``--gtest_filter`` argument during test\n    discovery.  Note that the expression is a wildcard-based format that\n    matches against the original test names as used by gtest.  For type or\n    value-parameterized tests, these names may be different to the potentially\n    pretty-printed test names that :program:`ctest` uses.\n\n  ``NO_PRETTY_TYPES``\n    By default, the type index of type-parameterized tests is replaced by the\n    actual type name in the CTest test name.  If this behavior is undesirable\n    (e.g. because the type names are unwieldy), this option will suppress this\n    behavior.\n\n  ``NO_PRETTY_VALUES``\n    By default, the value index of value-parameterized tests is replaced by the\n    actual value in the CTest test name.  If this behavior is undesirable\n    (e.g. because the value strings are unwieldy), this option will suppress\n    this behavior.\n\n  ``PROPERTIES name1 value1...``\n    Specifies additional properties to be set on all tests discovered by this\n    invocation of ``gtest_discover_tests()``.\n\n  ``TEST_LIST var``\n    Make the list of tests available in the variable ``var``, rather than the\n    default ``<target>_TESTS``.  This can be useful when the same test\n    executable is being used in multiple calls to ``gtest_discover_tests()``.\n    Note that this variable is only available in CTest.\n\n    Due to a limitation of CMake's parsing rules, any test with a square\n    bracket in its name will be omitted from the list of tests stored in\n    this variable.  Such tests will still be defined and executed by\n    ``ctest`` as normal though.\n\n  ``DISCOVERY_TIMEOUT num``\n    .. versionadded:: 3.10.3\n\n    Specifies how long (in seconds) CMake will wait for the test to enumerate\n    available tests.  If the test takes longer than this, discovery (and your\n    build) will fail.  Most test executables will enumerate their tests very\n    quickly, but under some exceptional circumstances, a test may require a\n    longer timeout.  The default is 5.  See also the ``TIMEOUT`` option of\n    :command:`execute_process`.\n\n    .. note::\n\n      In CMake versions 3.10.1 and 3.10.2, this option was called ``TIMEOUT``.\n      This clashed with the ``TIMEOUT`` test property, which is one of the\n      common properties that would be set with the ``PROPERTIES`` keyword,\n      usually leading to legal but unintended behavior.  The keyword was\n      changed to ``DISCOVERY_TIMEOUT`` in CMake 3.10.3 to address this\n      problem.  The ambiguous behavior of the ``TIMEOUT`` keyword in 3.10.1\n      and 3.10.2 has not been preserved.\n\n  ``XML_OUTPUT_DIR dir``\n    .. versionadded:: 3.18\n\n    If specified, the parameter is passed along with ``--gtest_output=xml:``\n    to test executable. The actual file name is the same as the test target,\n    including prefix and suffix. This should be used instead of\n    ``EXTRA_ARGS --gtest_output=xml`` to avoid race conditions writing the\n    XML result output when using parallel test execution.\n\n  ``DISCOVERY_MODE``\n    .. versionadded:: 3.18\n\n    Provides greater control over when ``gtest_discover_tests()`` performs test\n    discovery. By default, ``POST_BUILD`` sets up a post-build command\n    to perform test discovery at build time. In certain scenarios, like\n    cross-compiling, this ``POST_BUILD`` behavior is not desirable.\n    By contrast, ``PRE_TEST`` delays test discovery until just prior to test\n    execution. This way test discovery occurs in the target environment\n    where the test has a better chance at finding appropriate runtime\n    dependencies.\n\n    ``DISCOVERY_MODE`` defaults to the value of the\n    ``CMAKE_GTEST_DISCOVER_TESTS_DISCOVERY_MODE`` variable if it is not\n    passed when calling ``gtest_discover_tests()``. This provides a mechanism\n    for globally selecting a preferred test discovery behavior without having\n    to modify each call site.\n\n  ``DISCOVERY_EXTRA_ARGS args...``\n    .. versionadded:: 3.31\n\n    Any extra arguments to pass on the command line for the discovery command.\n\n  .. versionadded:: 3.29\n    The :prop_tgt:`TEST_LAUNCHER` target property is honored during test\n    discovery and test execution.\n\n  .. versionchanged:: 3.31\n    Empty values in the :prop_tgt:`TEST_LAUNCHER` and\n    :prop_tgt:`CROSSCOMPILING_EMULATOR` target properties are preserved,\n    see policy :policy:`CMP0178`.\n\n#"
+      },
+      {
+        "label": "gtest_discover_tests",
+        "kind": 3,
+        "detail": "Command",
+        "documentation": "defined command from GoogleTest.cmake\n.rst:\nGoogleTest\n----------\n\n.. versionadded:: 3.9\n\nThis module provides commands to help use the Google Test infrastructure.\n\nLoad this module in a CMake project with:\n\n.. code-block:: cmake\n\n  include(GoogleTest)\n\nTwo mechanisms for adding tests are provided. :command:`gtest_add_tests` has\nbeen around for some time, originally via ``find_package(GTest)``.\n:command:`gtest_discover_tests` was introduced in CMake 3.10.\n\nThe (older) :command:`gtest_add_tests` scans source files to identify tests.\nThis is usually effective, with some caveats, including in cross-compiling\nenvironments, and makes setting additional properties on tests more convenient.\nHowever, its handling of parameterized tests is less comprehensive, and it\nrequires re-running CMake to detect changes to the list of tests.\n\nThe (newer) :command:`gtest_discover_tests` discovers tests by asking the\ncompiled test executable to enumerate its tests.  This is more robust and\nprovides better handling of parameterized tests, and does not require CMake\nto be re-run when tests change.  However, it may not work in a cross-compiling\nenvironment, and setting test properties is less convenient.\n\nMore details can be found in the documentation of the respective functions.\n\nBoth commands are intended to replace use of :command:`add_test` to register\ntests, and will create a separate CTest test for each Google Test test case.\nNote that this is in some cases less efficient, as common set-up and tear-down\nlogic cannot be shared by multiple test cases executing in the same instance.\nHowever, it provides more fine-grained pass/fail information to CTest, which is\nusually considered as more beneficial.  By default, the CTest test name is the\nsame as the Google Test name (i.e. ``suite.testcase``); see also\n``TEST_PREFIX`` and ``TEST_SUFFIX``.\n\n.. command:: gtest_add_tests\n\n  Automatically add tests with CTest by scanning source code for Google Test\n  macros:\n\n  .. code-block:: cmake\n\n    gtest_add_tests(TARGET target\n                    [SOURCES src1...]\n                    [EXTRA_ARGS args...]\n                    [WORKING_DIRECTORY dir]\n                    [TEST_PREFIX prefix]\n                    [TEST_SUFFIX suffix]\n                    [SKIP_DEPENDENCY]\n                    [TEST_LIST outVar]\n    )\n\n  ``gtest_add_tests`` attempts to identify tests by scanning source files.\n  Although this is generally effective, it uses only a basic regular expression\n  match, which can be defeated by atypical test declarations, and is unable to\n  fully \"split\" parameterized tests.  Additionally, it requires that CMake be\n  re-run to discover any newly added, removed or renamed tests (by default,\n  this means that CMake is re-run when any test source file is changed, but see\n  ``SKIP_DEPENDENCY``).  However, it has the advantage of declaring tests at\n  CMake time, which somewhat simplifies setting additional properties on tests,\n  and always works in a cross-compiling environment.\n\n  The options are:\n\n  ``TARGET target``\n    Specifies the Google Test executable, which must be a known CMake\n    executable target.  CMake will substitute the location of the built\n    executable when running the test.\n\n  ``SOURCES src1...``\n    When provided, only the listed files will be scanned for test cases.  If\n    this option is not given, the :prop_tgt:`SOURCES` property of the\n    specified ``target`` will be used to obtain the list of sources.\n\n  ``EXTRA_ARGS args...``\n    Any extra arguments to pass on the command line to each test case.\n\n    .. versionchanged:: 3.31\n      Empty values in ``args...`` are preserved, see :policy:`CMP0178`.\n\n  ``WORKING_DIRECTORY dir``\n    Specifies the directory in which to run the discovered test cases.  If this\n    option is not provided, the current binary directory is used.\n\n  ``TEST_PREFIX prefix``\n    Specifies a ``prefix`` to be prepended to the name of each discovered test\n    case.  This can be useful when the same source files are being used in\n    multiple calls to ``gtest_add_test()`` but with different ``EXTRA_ARGS``.\n\n  ``TEST_SUFFIX suffix``\n    Similar to ``TEST_PREFIX`` except the ``suffix`` is appended to the name of\n    every discovered test case.  Both ``TEST_PREFIX`` and ``TEST_SUFFIX`` may\n    be specified.\n\n  ``SKIP_DEPENDENCY``\n    Normally, the function creates a dependency which will cause CMake to be\n    re-run if any of the sources being scanned are changed.  This is to ensure\n    that the list of discovered tests is updated.  If this behavior is not\n    desired (as may be the case while actually writing the test cases), this\n    option can be used to prevent the dependency from being added.\n\n  ``TEST_LIST outVar``\n    The variable named by ``outVar`` will be populated in the calling scope\n    with the list of discovered test cases.  This allows the caller to do\n    things like manipulate test properties of the discovered tests.\n\n  .. versionchanged:: 3.31\n    Empty values in the :prop_tgt:`TEST_LAUNCHER` and\n    :prop_tgt:`CROSSCOMPILING_EMULATOR` target properties are preserved,\n    see policy :policy:`CMP0178`.\n\n  Usage example:\n\n  .. code-block:: cmake\n\n    include(GoogleTest)\n    add_executable(FooTest FooUnitTest.cxx)\n    gtest_add_tests(TARGET      FooTest\n                    TEST_SUFFIX .noArgs\n                    TEST_LIST   noArgsTests\n    )\n    gtest_add_tests(TARGET      FooTest\n                    EXTRA_ARGS  --someArg someValue\n                    TEST_SUFFIX .withArgs\n                    TEST_LIST   withArgsTests\n    )\n    set_tests_properties(${noArgsTests}   PROPERTIES TIMEOUT 10)\n    set_tests_properties(${withArgsTests} PROPERTIES TIMEOUT 20)\n\n  For backward compatibility, the following form is also supported:\n\n  .. code-block:: cmake\n\n    gtest_add_tests(exe args files...)\n\n  ``exe``\n    The path to the test executable or the name of a CMake target.\n  ``args``\n    A ;-list of extra arguments to be passed to executable.  The entire\n    list must be passed as a single argument.  Enclose it in quotes,\n    or pass ``\"\"`` for no arguments.\n  ``files...``\n    A list of source files to search for tests and test fixtures.\n    Alternatively, use ``AUTO`` to specify that ``exe`` is the name\n    of a CMake executable target whose sources should be scanned.\n\n  .. code-block:: cmake\n\n    include(GoogleTest)\n    set(FooTestArgs --foo 1 --bar 2)\n    add_executable(FooTest FooUnitTest.cxx)\n    gtest_add_tests(FooTest \"${FooTestArgs}\" AUTO)\n\n.. command:: gtest_discover_tests\n\n  Automatically add tests with CTest by querying the compiled test executable\n  for available tests:\n\n  .. code-block:: cmake\n\n    gtest_discover_tests(target\n                         [EXTRA_ARGS args...]\n                         [WORKING_DIRECTORY dir]\n                         [TEST_PREFIX prefix]\n                         [TEST_SUFFIX suffix]\n                         [TEST_FILTER expr]\n                         [NO_PRETTY_TYPES] [NO_PRETTY_VALUES]\n                         [PROPERTIES name1 value1...]\n                         [TEST_LIST var]\n                         [DISCOVERY_TIMEOUT seconds]\n                         [XML_OUTPUT_DIR dir]\n                         [DISCOVERY_MODE <POST_BUILD|PRE_TEST>]\n                         [DISCOVERY_EXTRA_ARGS args...]\n    )\n\n  .. versionadded:: 3.10\n\n  ``gtest_discover_tests()`` sets up a post-build or pre-test command on the\n  test executable that generates the list of tests by parsing the output from\n  running the test executable with the ``--gtest_list_tests`` argument.\n  Compared to the source parsing approach of :command:`gtest_add_tests`,\n  this ensures that the full list of tests, including instantiations of\n  parameterized tests, is obtained.  Since test discovery occurs at build\n  or test time, it is not necessary to re-run CMake when the list of tests\n  changes.  However, it requires that :prop_tgt:`CROSSCOMPILING_EMULATOR`\n  is properly set in order to function in a cross-compiling environment.\n\n  Additionally, setting properties on tests is somewhat less convenient, since\n  the tests are not available at CMake time.  Additional test properties may be\n  assigned to the set of tests as a whole using the ``PROPERTIES`` option.  If\n  more fine-grained test control is needed, custom content may be provided\n  through an external CTest script using the :prop_dir:`TEST_INCLUDE_FILES`\n  directory property.  The set of discovered tests is made accessible to such a\n  script via the ``<target>_TESTS`` variable (see the ``TEST_LIST`` option\n  below for further discussion and limitations).\n\n  The options are:\n\n  ``target``\n    Specifies the Google Test executable, which must be a known CMake\n    executable target.  CMake will substitute the location of the built\n    executable when running the test.\n\n  ``EXTRA_ARGS args...``\n    Any extra arguments to pass on the command line to each test case.\n\n    .. versionchanged:: 3.31\n      Empty values in ``args...`` are preserved, see :policy:`CMP0178`.\n\n  ``WORKING_DIRECTORY dir``\n    Specifies the directory in which to run the discovered test cases.  If this\n    option is not provided, the current binary directory is used.\n\n  ``TEST_PREFIX prefix``\n    Specifies a ``prefix`` to be prepended to the name of each discovered test\n    case.  This can be useful when the same test executable is being used in\n    multiple calls to ``gtest_discover_tests()`` but with different\n    ``EXTRA_ARGS``.\n\n  ``TEST_SUFFIX suffix``\n    Similar to ``TEST_PREFIX`` except the ``suffix`` is appended to the name of\n    every discovered test case.  Both ``TEST_PREFIX`` and ``TEST_SUFFIX`` may\n    be specified.\n\n  ``TEST_FILTER expr``\n    .. versionadded:: 3.22\n\n    Filter expression to pass as a ``--gtest_filter`` argument during test\n    discovery.  Note that the expression is a wildcard-based format that\n    matches against the original test names as used by gtest.  For type or\n    value-parameterized tests, these names may be different to the potentially\n    pretty-printed test names that :program:`ctest` uses.\n\n  ``NO_PRETTY_TYPES``\n    By default, the type index of type-parameterized tests is replaced by the\n    actual type name in the CTest test name.  If this behavior is undesirable\n    (e.g. because the type names are unwieldy), this option will suppress this\n    behavior.\n\n  ``NO_PRETTY_VALUES``\n    By default, the value index of value-parameterized tests is replaced by the\n    actual value in the CTest test name.  If this behavior is undesirable\n    (e.g. because the value strings are unwieldy), this option will suppress\n    this behavior.\n\n  ``PROPERTIES name1 value1...``\n    Specifies additional properties to be set on all tests discovered by this\n    invocation of ``gtest_discover_tests()``.\n\n  ``TEST_LIST var``\n    Make the list of tests available in the variable ``var``, rather than the\n    default ``<target>_TESTS``.  This can be useful when the same test\n    executable is being used in multiple calls to ``gtest_discover_tests()``.\n    Note that this variable is only available in CTest.\n\n    Due to a limitation of CMake's parsing rules, any test with a square\n    bracket in its name will be omitted from the list of tests stored in\n    this variable.  Such tests will still be defined and executed by\n    ``ctest`` as normal though.\n\n  ``DISCOVERY_TIMEOUT num``\n    .. versionadded:: 3.10.3\n\n    Specifies how long (in seconds) CMake will wait for the test to enumerate\n    available tests.  If the test takes longer than this, discovery (and your\n    build) will fail.  Most test executables will enumerate their tests very\n    quickly, but under some exceptional circumstances, a test may require a\n    longer timeout.  The default is 5.  See also the ``TIMEOUT`` option of\n    :command:`execute_process`.\n\n    .. note::\n\n      In CMake versions 3.10.1 and 3.10.2, this option was called ``TIMEOUT``.\n      This clashed with the ``TIMEOUT`` test property, which is one of the\n      common properties that would be set with the ``PROPERTIES`` keyword,\n      usually leading to legal but unintended behavior.  The keyword was\n      changed to ``DISCOVERY_TIMEOUT`` in CMake 3.10.3 to address this\n      problem.  The ambiguous behavior of the ``TIMEOUT`` keyword in 3.10.1\n      and 3.10.2 has not been preserved.\n\n  ``XML_OUTPUT_DIR dir``\n    .. versionadded:: 3.18\n\n    If specified, the parameter is passed along with ``--gtest_output=xml:``\n    to test executable. The actual file name is the same as the test target,\n    including prefix and suffix. This should be used instead of\n    ``EXTRA_ARGS --gtest_output=xml`` to avoid race conditions writing the\n    XML result output when using parallel test execution.\n\n  ``DISCOVERY_MODE``\n    .. versionadded:: 3.18\n\n    Provides greater control over when ``gtest_discover_tests()`` performs test\n    discovery. By default, ``POST_BUILD`` sets up a post-build command\n    to perform test discovery at build time. In certain scenarios, like\n    cross-compiling, this ``POST_BUILD`` behavior is not desirable.\n    By contrast, ``PRE_TEST`` delays test discovery until just prior to test\n    execution. This way test discovery occurs in the target environment\n    where the test has a better chance at finding appropriate runtime\n    dependencies.\n\n    ``DISCOVERY_MODE`` defaults to the value of the\n    ``CMAKE_GTEST_DISCOVER_TESTS_DISCOVERY_MODE`` variable if it is not\n    passed when calling ``gtest_discover_tests()``. This provides a mechanism\n    for globally selecting a preferred test discovery behavior without having\n    to modify each call site.\n\n  ``DISCOVERY_EXTRA_ARGS args...``\n    .. versionadded:: 3.31\n\n    Any extra arguments to pass on the command line for the discovery command.\n\n  .. versionadded:: 3.29\n    The :prop_tgt:`TEST_LAUNCHER` target property is honored during test\n    discovery and test execution.\n\n  .. versionchanged:: 3.31\n    Empty values in the :prop_tgt:`TEST_LAUNCHER` and\n    :prop_tgt:`CROSSCOMPILING_EMULATOR` target properties are preserved,\n    see policy :policy:`CMP0178`.\n\n#"
+      },
+      {
+        "label": "gtest_add_tests",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined function\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake\n\n------------------------------------------------------------------------------"
+      },
+      {
+        "label": "gtest_discover_tests",
+        "kind": 3,
+        "detail": "Function",
+        "documentation": "defined function\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "options",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "oneValueArgs",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "multiValueArgs",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "allKeywords",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "__newArgs",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake\n\nthe latter."
+      },
+      {
+        "label": "autoAddSources",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "arg_TARGET",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "arg_EXTRA_ARGS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "arg_SOURCES",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "maybe_WORKING_DIRECTORY",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "gtest_case_name_regex",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "gtest_test_type_regex",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "each_line_regex",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "line",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "accumulate_line",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake\n\nStores the line number of the start of a test definition"
+      },
+      {
+        "label": "accumulated",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake\n\nStores accumulated lines to match multi-line test definitions"
+      },
+      {
+        "label": "accumulate_line",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "accumulated",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake\n\nAppend the current line to the accumulated string"
+      },
+      {
+        "label": "accumulated",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake\n\nReset accumulated for the next match"
+      },
+      {
+        "label": "extra_args",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "ctest_test_name",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "ctest_test_name",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "${arg_TEST_LIST}",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "options",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "oneValueArgs",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "multiValueArgs",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "arg_WORKING_DIRECTORY",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "arg_TEST_LIST",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "arg_DISCOVERY_TIMEOUT",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "CMAKE_GTEST_DISCOVER_TESTS_DISCOVERY_MODE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "arg_DISCOVERY_MODE",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "counter",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "ctest_file_base",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake\n\nDefine rule to generate test list for aforementioned test executable"
+      },
+      {
+        "label": "ctest_include_file",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "ctest_tests_file",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "test_executor",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "test_executor",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "test_executor",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "test_executor",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "new_arg_EXTRA_ARGS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "arg_EXTRA_ARGS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "test_executor_orig",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "test_executor",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
+      },
+      {
+        "label": "ctest_tests_file",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: /usr/share/cmake-4.2/Modules/GoogleTest.cmake"
       }
     ]
   }

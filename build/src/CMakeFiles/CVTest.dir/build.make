@@ -53,10 +53,10 @@ RM = /home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nux/Developer/study/cpp/opencv
+CMAKE_SOURCE_DIR = /home/nux/Developer/study/cpp/school-physics-app
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nux/Developer/study/cpp/opencv/build
+CMAKE_BINARY_DIR = /home/nux/Developer/study/cpp/school-physics-app/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/CVTest.dir/depend.make
@@ -73,90 +73,59 @@ src/CMakeFiles/CVTest.dir/codegen:
 .PHONY : src/CMakeFiles/CVTest.dir/codegen
 
 src/CMakeFiles/CVTest.dir/main.cc.o: src/CMakeFiles/CVTest.dir/flags.make
-src/CMakeFiles/CVTest.dir/main.cc.o: /home/nux/Developer/study/cpp/opencv/src/main.cc
+src/CMakeFiles/CVTest.dir/main.cc.o: /home/nux/Developer/study/cpp/school-physics-app/src/main.cc
 src/CMakeFiles/CVTest.dir/main.cc.o: src/CMakeFiles/CVTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nux/Developer/study/cpp/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/CVTest.dir/main.cc.o"
-	cd /home/nux/Developer/study/cpp/opencv/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/CVTest.dir/main.cc.o -MF CMakeFiles/CVTest.dir/main.cc.o.d -o CMakeFiles/CVTest.dir/main.cc.o -c /home/nux/Developer/study/cpp/opencv/src/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/CVTest.dir/main.cc.o"
+	cd /home/nux/Developer/study/cpp/school-physics-app/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/CVTest.dir/main.cc.o -MF CMakeFiles/CVTest.dir/main.cc.o.d -o CMakeFiles/CVTest.dir/main.cc.o -c /home/nux/Developer/study/cpp/school-physics-app/src/main.cc
 
 src/CMakeFiles/CVTest.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CVTest.dir/main.cc.i"
-	cd /home/nux/Developer/study/cpp/opencv/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nux/Developer/study/cpp/opencv/src/main.cc > CMakeFiles/CVTest.dir/main.cc.i
+	cd /home/nux/Developer/study/cpp/school-physics-app/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nux/Developer/study/cpp/school-physics-app/src/main.cc > CMakeFiles/CVTest.dir/main.cc.i
 
 src/CMakeFiles/CVTest.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CVTest.dir/main.cc.s"
-	cd /home/nux/Developer/study/cpp/opencv/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nux/Developer/study/cpp/opencv/src/main.cc -o CMakeFiles/CVTest.dir/main.cc.s
-
-src/CMakeFiles/CVTest.dir/window/window.cc.o: src/CMakeFiles/CVTest.dir/flags.make
-src/CMakeFiles/CVTest.dir/window/window.cc.o: /home/nux/Developer/study/cpp/opencv/src/window/window.cc
-src/CMakeFiles/CVTest.dir/window/window.cc.o: src/CMakeFiles/CVTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nux/Developer/study/cpp/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/CVTest.dir/window/window.cc.o"
-	cd /home/nux/Developer/study/cpp/opencv/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/CVTest.dir/window/window.cc.o -MF CMakeFiles/CVTest.dir/window/window.cc.o.d -o CMakeFiles/CVTest.dir/window/window.cc.o -c /home/nux/Developer/study/cpp/opencv/src/window/window.cc
-
-src/CMakeFiles/CVTest.dir/window/window.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CVTest.dir/window/window.cc.i"
-	cd /home/nux/Developer/study/cpp/opencv/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nux/Developer/study/cpp/opencv/src/window/window.cc > CMakeFiles/CVTest.dir/window/window.cc.i
-
-src/CMakeFiles/CVTest.dir/window/window.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CVTest.dir/window/window.cc.s"
-	cd /home/nux/Developer/study/cpp/opencv/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nux/Developer/study/cpp/opencv/src/window/window.cc -o CMakeFiles/CVTest.dir/window/window.cc.s
-
-src/CMakeFiles/CVTest.dir/position/position.cc.o: src/CMakeFiles/CVTest.dir/flags.make
-src/CMakeFiles/CVTest.dir/position/position.cc.o: /home/nux/Developer/study/cpp/opencv/src/position/position.cc
-src/CMakeFiles/CVTest.dir/position/position.cc.o: src/CMakeFiles/CVTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nux/Developer/study/cpp/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/CVTest.dir/position/position.cc.o"
-	cd /home/nux/Developer/study/cpp/opencv/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/CVTest.dir/position/position.cc.o -MF CMakeFiles/CVTest.dir/position/position.cc.o.d -o CMakeFiles/CVTest.dir/position/position.cc.o -c /home/nux/Developer/study/cpp/opencv/src/position/position.cc
-
-src/CMakeFiles/CVTest.dir/position/position.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CVTest.dir/position/position.cc.i"
-	cd /home/nux/Developer/study/cpp/opencv/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nux/Developer/study/cpp/opencv/src/position/position.cc > CMakeFiles/CVTest.dir/position/position.cc.i
-
-src/CMakeFiles/CVTest.dir/position/position.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CVTest.dir/position/position.cc.s"
-	cd /home/nux/Developer/study/cpp/opencv/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nux/Developer/study/cpp/opencv/src/position/position.cc -o CMakeFiles/CVTest.dir/position/position.cc.s
+	cd /home/nux/Developer/study/cpp/school-physics-app/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nux/Developer/study/cpp/school-physics-app/src/main.cc -o CMakeFiles/CVTest.dir/main.cc.s
 
 # Object files for target CVTest
 CVTest_OBJECTS = \
-"CMakeFiles/CVTest.dir/main.cc.o" \
-"CMakeFiles/CVTest.dir/window/window.cc.o" \
-"CMakeFiles/CVTest.dir/position/position.cc.o"
+"CMakeFiles/CVTest.dir/main.cc.o"
 
 # External object files for target CVTest
 CVTest_EXTERNAL_OBJECTS =
 
 src/CVTest: src/CMakeFiles/CVTest.dir/main.cc.o
-src/CVTest: src/CMakeFiles/CVTest.dir/window/window.cc.o
-src/CVTest: src/CMakeFiles/CVTest.dir/position/position.cc.o
 src/CVTest: src/CMakeFiles/CVTest.dir/build.make
 src/CVTest: src/CMakeFiles/CVTest.dir/compiler_depend.ts
+src/CVTest: src/liblogic_lib.a
 src/CVTest: /usr/local/lib/libopencv_calib.so.5.1.0
 src/CVTest: /usr/local/lib/libopencv_objdetect.so.5.1.0
 src/CVTest: /usr/local/lib/libopencv_photo.so.5.1.0
 src/CVTest: /usr/local/lib/libopencv_ptcloud.so.5.1.0
+src/CVTest: /usr/local/lib/libopencv_highgui.so.5.1.0
 src/CVTest: /usr/local/lib/libopencv_stereo.so.5.1.0
 src/CVTest: /usr/local/lib/libopencv_stitching.so.5.1.0
 src/CVTest: /usr/local/lib/libopencv_video.so.5.1.0
-src/CVTest: /usr/local/lib/libopencv_highgui.so.5.1.0
-src/CVTest: /usr/local/lib/libopencv_videoio.so.5.1.0
 src/CVTest: /usr/local/lib/libopencv_features.so.5.1.0
 src/CVTest: /usr/local/lib/libopencv_dnn.so.5.1.0
+src/CVTest: /usr/local/lib/libopencv_videoio.so.5.1.0
 src/CVTest: /usr/local/lib/libopencv_imgcodecs.so.5.1.0
 src/CVTest: /usr/local/lib/libopencv_imgproc.so.5.1.0
 src/CVTest: /usr/local/lib/libopencv_geometry.so.5.1.0
 src/CVTest: /usr/local/lib/libopencv_flann.so.5.1.0
 src/CVTest: /usr/local/lib/libopencv_core.so.5.1.0
 src/CVTest: src/CMakeFiles/CVTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nux/Developer/study/cpp/opencv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CVTest"
-	cd /home/nux/Developer/study/cpp/opencv/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CVTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CVTest"
+	cd /home/nux/Developer/study/cpp/school-physics-app/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CVTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/CVTest.dir/build: src/CVTest
 .PHONY : src/CMakeFiles/CVTest.dir/build
 
 src/CMakeFiles/CVTest.dir/clean:
-	cd /home/nux/Developer/study/cpp/opencv/build/src && $(CMAKE_COMMAND) -P CMakeFiles/CVTest.dir/cmake_clean.cmake
+	cd /home/nux/Developer/study/cpp/school-physics-app/build/src && $(CMAKE_COMMAND) -P CMakeFiles/CVTest.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/CVTest.dir/clean
 
 src/CMakeFiles/CVTest.dir/depend:
-	cd /home/nux/Developer/study/cpp/opencv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nux/Developer/study/cpp/opencv /home/nux/Developer/study/cpp/opencv/src /home/nux/Developer/study/cpp/opencv/build /home/nux/Developer/study/cpp/opencv/build/src /home/nux/Developer/study/cpp/opencv/build/src/CMakeFiles/CVTest.dir/DependInfo.cmake "--color=$(COLOR)" CVTest
+	cd /home/nux/Developer/study/cpp/school-physics-app/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nux/Developer/study/cpp/school-physics-app /home/nux/Developer/study/cpp/school-physics-app/src /home/nux/Developer/study/cpp/school-physics-app/build /home/nux/Developer/study/cpp/school-physics-app/build/src /home/nux/Developer/study/cpp/school-physics-app/build/src/CMakeFiles/CVTest.dir/DependInfo.cmake "--color=$(COLOR)" CVTest
 .PHONY : src/CMakeFiles/CVTest.dir/depend
 

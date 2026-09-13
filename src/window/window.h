@@ -1,4 +1,4 @@
-// Copyright 2026, NUX.
+// Copyright 2026 NUX.
 
 #ifndef SRC_WINDOW_WINDOW_H_
 #define SRC_WINDOW_WINDOW_H_
@@ -7,8 +7,10 @@
 
 namespace application::window {
 
-void CameraRunning(cv::VideoCapture& object);
+// Runs the main camera processing loop, handling frame acquisition
+// and object tracking.
+void RunCameraLoop(cv::VideoCapture& camera);
 
-}
+}  // namespace application::window
 
 #endif  // SRC_WINDOW_WINDOW_H_

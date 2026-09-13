@@ -1,6 +1,7 @@
 {
-  "date": "2026-09-11T16:57:47.323535897+03:00",
+  "date": "2026-09-13T13:55:37.718947459+03:00",
   "data": {
-    "/home/nux/Developer/study/cpp/opencv/src/CMakeLists.txt": "/home/nux/Developer/study/cpp/opencv/CMakeLists.txt"
+    "/home/nux/Developer/study/cpp/school-physics-app/src/CMakeLists.txt": "/home/nux/Developer/study/cpp/school-physics-app/CMakeLists.txt",
+    "/home/nux/Developer/study/cpp/school-physics-app/tests/CMakeLists.txt": "/home/nux/Developer/study/cpp/school-physics-app/CMakeLists.txt"
   }
 }

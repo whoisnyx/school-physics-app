@@ -23,9 +23,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -42,9 +42,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/uname"
       - "/home/nux/.bun/bin/uname"
       - "/home/nux/.local/bin/uname"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/uname"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/uname"
       - "/home/nux/bin/uname"
-      - "/home/nux/Developer/study/cpp/opencv/bin/uname"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/uname"
       - "/home/linuxbrew/.linuxbrew/bin/uname"
       - "/home/linuxbrew/.linuxbrew/sbin/uname"
       - "/home/nux/.cargo/bin/uname"
@@ -116,9 +116,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -135,9 +135,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/gmake"
       - "/home/nux/.bun/bin/gmake"
       - "/home/nux/.local/bin/gmake"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/gmake"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/gmake"
       - "/home/nux/bin/gmake"
-      - "/home/nux/Developer/study/cpp/opencv/bin/gmake"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/gmake"
       - "/home/linuxbrew/.linuxbrew/bin/gmake"
       - "/home/linuxbrew/.linuxbrew/sbin/gmake"
       - "/home/nux/.cargo/bin/gmake"
@@ -210,9 +210,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -229,9 +229,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/c++"
       - "/home/nux/.bun/bin/c++"
       - "/home/nux/.local/bin/c++"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/c++"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/c++"
       - "/home/nux/bin/c++"
-      - "/home/nux/Developer/study/cpp/opencv/bin/c++"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/c++"
       - "/home/linuxbrew/.linuxbrew/bin/c++"
       - "/home/linuxbrew/.linuxbrew/sbin/c++"
       - "/home/nux/.cargo/bin/c++"
@@ -350,7 +350,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/nux/Developer/study/cpp/opencv/build/CMakeFiles/4.4.0/CompilerIdCXX/a.out
+        /home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/4.4.0/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -376,9 +376,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -448,9 +448,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -520,9 +520,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -592,9 +592,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -664,9 +664,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -736,9 +736,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -808,9 +808,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -880,9 +880,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -952,9 +952,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -971,9 +971,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/dlltool"
       - "/home/nux/.bun/bin/dlltool"
       - "/home/nux/.local/bin/dlltool"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/dlltool"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/dlltool"
       - "/home/nux/bin/dlltool"
-      - "/home/nux/Developer/study/cpp/opencv/bin/dlltool"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/dlltool"
       - "/home/linuxbrew/.linuxbrew/bin/dlltool"
       - "/home/linuxbrew/.linuxbrew/sbin/dlltool"
       - "/home/nux/.cargo/bin/dlltool"
@@ -1043,9 +1043,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -1115,9 +1115,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -1134,9 +1134,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/tapi"
       - "/home/nux/.bun/bin/tapi"
       - "/home/nux/.local/bin/tapi"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/tapi"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/tapi"
       - "/home/nux/bin/tapi"
-      - "/home/nux/Developer/study/cpp/opencv/bin/tapi"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/tapi"
       - "/home/linuxbrew/.linuxbrew/bin/tapi"
       - "/home/linuxbrew/.linuxbrew/sbin/tapi"
       - "/home/nux/.cargo/bin/tapi"
@@ -1209,9 +1209,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -1228,9 +1228,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/gcc-ar-15.2"
       - "/home/nux/.bun/bin/gcc-ar-15.2"
       - "/home/nux/.local/bin/gcc-ar-15.2"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/gcc-ar-15.2"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/gcc-ar-15.2"
       - "/home/nux/bin/gcc-ar-15.2"
-      - "/home/nux/Developer/study/cpp/opencv/bin/gcc-ar-15.2"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/gcc-ar-15.2"
       - "/home/linuxbrew/.linuxbrew/bin/gcc-ar-15.2"
       - "/home/linuxbrew/.linuxbrew/sbin/gcc-ar-15.2"
       - "/home/nux/.cargo/bin/gcc-ar-15.2"
@@ -1303,9 +1303,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/"
       - "/home/nux/.bun/bin/"
       - "/home/nux/.local/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/"
       - "/home/nux/bin/"
-      - "/home/nux/Developer/study/cpp/opencv/bin/"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/"
       - "/home/linuxbrew/.linuxbrew/bin/"
       - "/home/linuxbrew/.linuxbrew/sbin/"
       - "/home/nux/.cargo/bin/"
@@ -1322,9 +1322,9 @@ events:
       - "/home/nux/.local/share/nvim/mason/bin/gcc-ranlib-15.2"
       - "/home/nux/.bun/bin/gcc-ranlib-15.2"
       - "/home/nux/.local/bin/gcc-ranlib-15.2"
-      - "/home/nux/Developer/study/cpp/opencv/node_modules/.bin/gcc-ranlib-15.2"
+      - "/home/nux/Developer/study/cpp/school-physics-app/node_modules/.bin/gcc-ranlib-15.2"
       - "/home/nux/bin/gcc-ranlib-15.2"
-      - "/home/nux/Developer/study/cpp/opencv/bin/gcc-ranlib-15.2"
+      - "/home/nux/Developer/study/cpp/school-physics-app/bin/gcc-ranlib-15.2"
       - "/home/linuxbrew/.linuxbrew/bin/gcc-ranlib-15.2"
       - "/home/linuxbrew/.linuxbrew/sbin/gcc-ranlib-15.2"
       - "/home/nux/.cargo/bin/gcc-ranlib-15.2"
@@ -1379,8 +1379,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/CMakeScratch/TryCompile-rhriTI"
-      binary: "/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/CMakeScratch/TryCompile-rhriTI"
+      source: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/CMakeScratch/TryCompile-J96IK4"
+      binary: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/CMakeScratch/TryCompile-J96IK4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1391,13 +1391,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/CMakeScratch/TryCompile-rhriTI'
+        Change Dir: '/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/CMakeScratch/TryCompile-J96IK4'
         
-        Run Build Command(s): /home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_db700/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_db700.dir/build.make CMakeFiles/cmTC_db700.dir/build
-        gmake[1]: Entering directory '/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/CMakeScratch/TryCompile-rhriTI'
-        Building CXX object CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o -c /home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2afa3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2afa3.dir/build.make CMakeFiles/cmTC_2afa3.dir/build
+        gmake[1]: Entering directory '/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/CMakeScratch/TryCompile-J96IK4'
+        Building CXX object CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o -c /home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -1407,8 +1407,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db700.dir/'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_db700.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccfS8ytV.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2afa3.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2afa3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccSiXFPG.s
         GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1429,14 +1429,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: b661a74662ad7cf413c4193391ab5290
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db700.dir/'
-         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccfS8ytV.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2afa3.dir/'
+         /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccSiXFPG.s
         GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_db700
-        /home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db700.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_2afa3
+        /home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2afa3.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper
@@ -1449,14 +1449,14 @@ events:
         gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db700' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_db700.'
-         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQX8ebE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_db700 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2afa3' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2afa3.'
+         /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIMLWra.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2afa3 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         collect2 version 15.2.0
-        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQX8ebE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_db700 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIMLWra.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2afa3 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db700' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_db700.'
-        /usr/bin/c++ -v -Wl,-v CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_db700
-        gmake[1]: Leaving directory '/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/CMakeScratch/TryCompile-rhriTI'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2afa3' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2afa3.'
+        /usr/bin/c++ -v -Wl,-v CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2afa3
+        gmake[1]: Leaving directory '/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/CMakeScratch/TryCompile-J96IK4'
         
       exitCode: 0
   -
@@ -1497,13 +1497,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/CMakeScratch/TryCompile-rhriTI']
+        ignore line: [Change Dir: '/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/CMakeScratch/TryCompile-J96IK4']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_db700/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_db700.dir/build.make CMakeFiles/cmTC_db700.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/CMakeScratch/TryCompile-rhriTI']
-        ignore line: [Building CXX object CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o -c /home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2afa3/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2afa3.dir/build.make CMakeFiles/cmTC_2afa3.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/CMakeScratch/TryCompile-J96IK4']
+        ignore line: [Building CXX object CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o -c /home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -1513,8 +1513,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db700.dir/']
-        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_db700.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccfS8ytV.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2afa3.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2afa3.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -fzero-init-padding-bits=all -Wbidi-chars=any -o /tmp/ccSiXFPG.s]
         ignore line: [GNU C++17 (Ubuntu 15.2.0-16ubuntu1) version 15.2.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1535,14 +1535,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: b661a74662ad7cf413c4193391ab5290]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db700.dir/']
-        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccfS8ytV.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2afa3.dir/']
+        ignore line: [ /usr/bin/x86_64-linux-gnu-as -v --64 -o CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccSiXFPG.s]
         ignore line: [GNU assembler version 2.46 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.46]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_db700]
-        ignore line: [/home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db700.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_2afa3]
+        ignore line: [/home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2afa3.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper]
@@ -1555,13 +1555,13 @@ events:
         ignore line: [gcc version 15.2.0 (Ubuntu 15.2.0-16ubuntu1) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/15/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/15/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/15/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_db700' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_db700.']
-        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQX8ebE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_db700 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2afa3' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2afa3.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/15/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIMLWra.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2afa3 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccQX8ebE.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccIMLWra.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1579,7 +1579,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_db700] ==> ignore
+          arg [cmTC_2afa3] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -1594,7 +1594,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1605,9 +1605,9 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 15.2.0]
-        link line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQX8ebE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_db700 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> linker [/usr/bin/ld]
-        link line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQX8ebE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_db700 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> linker architecture flags [-m;elf]
-        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQX8ebE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_db700 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_db700.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
+        link line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIMLWra.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2afa3 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIMLWra.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2afa3 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/15/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/15/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIMLWra.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2afa3 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/15/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_2afa3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld -m;elf
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -1641,7 +1641,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "src/CMakeLists.txt:10 (find_package)"
+      - "src/CMakeLists.txt:11 (find_package)"
     name: "OpenCV"
     configs:
       -
@@ -1680,35 +1680,35 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/pkgRedirects/OpenCVConfig.cmake"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/OpenCVConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/pkgRedirects/opencv-config.cmake"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/opencv-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/pkgRedirects/lib/x86_64-linux-gnu/cps/OpenCV.cps"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/lib/x86_64-linux-gnu/cps/OpenCV.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/pkgRedirects/lib/x86_64-linux-gnu/cps/opencv.cps"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/lib/x86_64-linux-gnu/cps/opencv.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/pkgRedirects/lib/cps/OpenCV.cps"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/lib/cps/OpenCV.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/pkgRedirects/lib/cps/opencv.cps"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/lib/cps/opencv.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/pkgRedirects/share/cps/OpenCV.cps"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/share/cps/OpenCV.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/build/CMakeFiles/pkgRedirects/share/cps/opencv.cps"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/share/cps/opencv.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -1872,35 +1872,35 @@ events:
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/OpenCVConfig.cmake"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/OpenCVConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/opencv-config.cmake"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/opencv-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/lib/x86_64-linux-gnu/cps/OpenCV.cps"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/lib/x86_64-linux-gnu/cps/OpenCV.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/lib/x86_64-linux-gnu/cps/opencv.cps"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/lib/x86_64-linux-gnu/cps/opencv.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/lib/cps/OpenCV.cps"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/lib/cps/OpenCV.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/lib/cps/opencv.cps"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/lib/cps/opencv.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/share/cps/OpenCV.cps"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/share/cps/OpenCV.cps"
         mode: "cps"
         reason: "no_exist"
       -
-        path: "/home/nux/Developer/study/cpp/opencv/share/cps/opencv.cps"
+        path: "/home/nux/Developer/study/cpp/school-physics-app/share/cps/opencv.cps"
         mode: "cps"
         reason: "no_exist"
       -
@@ -2003,6 +2003,452 @@ events:
       path: "/usr/local/lib/cmake/opencv5/OpenCVConfig.cmake"
       mode: "config"
       version: "5.1.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/nux/.local/share/nvim/mason/bin"
+        - "/home/nux/.bun/bin"
+        - "/home/nux/.local/bin"
+        - "node_modules/.bin"
+        - "/home/nux/.local/bin"
+        - "/home/nux/bin"
+        - "bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/nux/.bun/bin"
+        - "/home/nux/.local/bin"
+        - "node_modules/.bin"
+        - "/home/nux/.local/bin"
+        - "/home/nux/bin"
+        - "bin"
+        - "/home/linuxbrew/.linuxbrew/bin"
+        - "/home/linuxbrew/.linuxbrew/sbin"
+        - "/home/nux/.local/bin"
+        - "/home/nux/.cargo/bin"
+        - "/home/nux/.local/bin"
+        - "/home/nux/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/home/nux/.local/lib/python3.14/site-packages/cmake/data"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/FindThreads.cmake:162 (check_cxx_source_compiles)"
+      - "/home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "/home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake:39 (find_dependency)"
+      - "/home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/FindGTest.cmake:345 (find_package)"
+      - "tests/CMakeLists.txt:1 (find_package)"
+    directories:
+      source: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/CMakeScratch/TryCompile-nFTqdS"
+      binary: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/CMakeScratch/TryCompile-nFTqdS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/CMakeScratch/TryCompile-nFTqdS'
+        
+        Run Build Command(s): /home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_431f3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_431f3.dir/build.make CMakeFiles/cmTC_431f3.dir/build
+        gmake[1]: Entering directory '/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/CMakeScratch/TryCompile-nFTqdS'
+        Building CXX object CMakeFiles/cmTC_431f3.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++20 -o CMakeFiles/cmTC_431f3.dir/src.cxx.o -c /home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/CMakeScratch/TryCompile-nFTqdS/src.cxx
+        Linking CXX executable cmTC_431f3
+        /home/nux/.local/lib/python3.14/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_431f3.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_431f3.dir/src.cxx.o -o cmTC_431f3
+        gmake[1]: Leaving directory '/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/CMakeScratch/TryCompile-nFTqdS'
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/nux/.local/lib/python3.14/site-packages/cmake/data/share/cmake-4.4/Modules/FindGTest.cmake:345 (find_package)"
+      - "tests/CMakeLists.txt:1 (find_package)"
+    name: "GTest"
+    configs:
+      -
+        filename: "GTest.cps"
+        kind: "cps"
+      -
+        filename: "gtest.cps"
+        kind: "cps"
+      -
+        filename: "GTestConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "gtest-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "GTest"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/lib/x86_64-linux-gnu/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/lib/x86_64-linux-gnu/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/build/CMakeFiles/pkgRedirects/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/share/nvim/mason/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/share/nvim/mason/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/share/nvim/mason/lib/x86_64-linux-gnu/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/share/nvim/mason/lib/x86_64-linux-gnu/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/share/nvim/mason/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/share/nvim/mason/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/share/nvim/mason/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/share/nvim/mason/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.bun/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.bun/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.bun/lib/x86_64-linux-gnu/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.bun/lib/x86_64-linux-gnu/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.bun/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.bun/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.bun/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.bun/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/lib/x86_64-linux-gnu/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/lib/x86_64-linux-gnu/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.local/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/lib/x86_64-linux-gnu/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/lib/x86_64-linux-gnu/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/lib/x86_64-linux-gnu/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/lib/x86_64-linux-gnu/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/Developer/study/cpp/school-physics-app/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/x86_64-linux-gnu/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/x86_64-linux-gnu/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/linuxbrew/.linuxbrew/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.cargo/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.cargo/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.cargo/lib/x86_64-linux-gnu/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.cargo/lib/x86_64-linux-gnu/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.cargo/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.cargo/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.cargo/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/nux/.cargo/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/x86_64-linux-gnu/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/x86_64-linux-gnu/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/GTestConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/gtest-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/x86_64-linux-gnu/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/x86_64-linux-gnu/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/GTest.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/gtest.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "/usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake"
+      mode: "config"
+      version: "1.17.0"
     search_context:
       ENV{PATH}:
         - "/home/nux/.local/share/nvim/mason/bin"
