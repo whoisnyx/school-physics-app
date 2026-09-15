@@ -1,0 +1,26 @@
+module(
+    name = "school-physics-app",
+    version = "1.0",
+)
+
+bazel_dep(name = "rules_cc", version = "0.2.25")
+bazel_dep(name = "googletest", version = "1.18.0.bcr.1")
+
+new_local_repository = use_repo_rule("@bazel_tools//tools/build_defs/repo:local.bzl", "new_local_repository")
+
+new_local_repository(
+    name = "opencv_local",
+    path = "/usr/local",
+    build_file_content = """
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
+
+cc_library(
+    name = "opencv",
+    srcs = glob(["lib/libopencv_*.so"]),
+    hdrs = glob(["include/opencv5/**/*.h", "include/opencv5/**/*.hpp"]),
+    includes = ["include/opencv5"],
+    visibility = ["//visibility:public"],
+    linkopts = ["-lopencv_highgui", "-lopencv_core", "-lopencv_imgcodecs", "-lopencv_imgproc"],
+)
+""",
+)

@@ -3,6 +3,7 @@
 #ifndef SRC_POSITION_POSITION_H_
 #define SRC_POSITION_POSITION_H_
 
+#include <opencv2/geometry.hpp>
 #include <opencv2/opencv.hpp>
 
 namespace application::window::object_position {
