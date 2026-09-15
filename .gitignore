@@ -63,4 +63,4 @@ Thumbs.db
 
 .git/
 
-/bazel-*/
+bazel-*
