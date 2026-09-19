@@ -2,13 +2,22 @@
 
 #include "position/position.h"
 
-#include <algorithm>
-#include <cmath>
 #include <iostream>
+#include <numeric>
 #include <opencv2/opencv.hpp>
 #include <vector>
 
 namespace application::window::object_position {
+
+double PositionCalculator::GetSmoothedPosition(double new_position) {
+  position_buffer_.push_back(new_position);
+  if (position_buffer_.size() > buffer_size_) {
+    position_buffer_.pop_front();
+  }
+  return std::accumulate(position_buffer_.begin(), position_buffer_.end(),
+                         0.0) /
+         position_buffer_.size();
+}
 
 void PositionCalculator::TrackObject(cv::Mat& mask, cv::Mat& hsv,
                                      cv::Mat& frame,
@@ -37,15 +46,22 @@ void PositionCalculator::TrackObject(cv::Mat& mask, cv::Mat& hsv,
         int x = static_cast<int>(m.m10 / m.m00);
         int y = static_cast<int>(m.m01 / m.m00);
 
-        double current_position = static_cast<double>(x);
+        // Use y-coordinate for vertical movement, x for horizontal
+        double raw_position =
+            (controller_.GetType() == application::window::object_position::
+                                          movement::MovementType::Vertical)
+                ? static_cast<double>(y)
+                : static_cast<double>(x);
+
+        double current_position = GetSmoothedPosition(raw_position);
+
         double current_time =
             static_cast<double>(cv::getTickCount()) / cv::getTickFrequency();
 
         if (has_previous_position_) {
           double delta = std::abs(current_position - previous_position_);
 
-          // Detect movement initiation if displacement exceeds the noise
-          // threshold.
+          // Detect movement initiation
           if (delta > movement_threshold_ && !is_moving_) {
             is_moving_ = true;
             start_position_ = current_position;
@@ -62,20 +78,27 @@ void PositionCalculator::TrackObject(cv::Mat& mask, cv::Mat& hsv,
             last_movement_time_ = current_time;
           }
 
-          // Compute kinematics only after the object is detected as stopped.
-          if (is_moving_ && current_time - last_movement_time_ > stop_time_) {
+          // Compute kinematics. Increased stop_time_ to 2.0 to account for
+          // bounces.
+          const double active_stop_time =
+              (controller_.GetType() == application::window::object_position::
+                                            movement::MovementType::Vertical)
+                  ? 2.0
+                  : stop_time_;
+          if (is_moving_ &&
+              current_time - last_movement_time_ > active_stop_time) {
             double distance = std::abs(last_position_ - start_position_);
             double time = last_movement_time_ - start_time_;
 
             if (time > 0.0) {
-              double velocity = distance / time;
-              // Assuming constant acceleration from rest: s = 0.5 * a * t^2.
-              double acceleration = 2.0 * distance / (time * time);
+              auto kinematics = controller_.Calculate(distance, time);
 
               std::cout << "S = " << distance << " px" << std::endl;
               std::cout << "T = " << time << " s" << std::endl;
-              std::cout << "v = " << velocity << " px/s" << std::endl;
-              std::cout << "a = " << acceleration << " px/s^2" << std::endl;
+              std::cout << "v = " << kinematics.velocity << " px/s"
+                        << std::endl;
+              std::cout << kinematics.accel_name << " = "
+                        << kinematics.acceleration << " px/s^2" << std::endl;
             }
 
             is_moving_ = false;

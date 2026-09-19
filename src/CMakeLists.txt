@@ -3,6 +3,7 @@ find_package( OpenCV REQUIRED )
 add_library(logic_lib STATIC
   window/window.cc
   position/position.cc
+  movement/movement.cc
 )
 
 target_include_directories(logic_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

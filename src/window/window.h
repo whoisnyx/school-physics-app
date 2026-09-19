@@ -7,7 +7,7 @@
 
 namespace application::window {
 
-// Runs the main camera processing loop, handling frame acquisition
+// Runs the main camera procesing loop, handling frame acquisition
 // and object tracking.
 void RunCameraLoop(cv::VideoCapture& camera);
 

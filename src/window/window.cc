@@ -28,8 +28,17 @@ void RunCameraLoop(cv::VideoCapture& camera) {
     cv::imshow("Camera", camera_frame);
 
     // Terminate loop on 'q' key press.
-    if (cv::waitKey(10) == 'q') {
+    int key = cv::waitKey(10);
+    if (key == 'q') {
       break;
+    } else if (key == 'h') {
+      calculator.SetMovementType(application::window::object_position::
+                                     movement::MovementType::Horizontal);
+      std::cout << "Mode set to Horizontal" << std::endl;
+    } else if (key == 'v') {
+      calculator.SetMovementType(application::window::object_position::
+                                     movement::MovementType::Vertical);
+      std::cout << "Mode set to Vertical" << std::endl;
     }
   }
 }
