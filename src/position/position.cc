@@ -49,7 +49,7 @@ void PositionCalculator::TrackObject(cv::Mat& mask, cv::Mat& hsv,
         // Use y-coordinate for vertical movement, x for horizontal
         double raw_position =
             (controller_.GetType() == application::window::object_position::
-                                          movement::MovementType::Vertical)
+                                          movement::MovementType::kVertical)
                 ? static_cast<double>(y)
                 : static_cast<double>(x);
 
@@ -82,7 +82,7 @@ void PositionCalculator::TrackObject(cv::Mat& mask, cv::Mat& hsv,
           // bounces.
           const double active_stop_time =
               (controller_.GetType() == application::window::object_position::
-                                            movement::MovementType::Vertical)
+                                            movement::MovementType::kVertical)
                   ? 2.0
                   : stop_time_;
           if (is_moving_ &&

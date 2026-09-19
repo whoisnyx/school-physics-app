@@ -33,11 +33,11 @@ void RunCameraLoop(cv::VideoCapture& camera) {
       break;
     } else if (key == 'h') {
       calculator.SetMovementType(application::window::object_position::
-                                     movement::MovementType::Horizontal);
+                                     movement::MovementType::kHorizontal);
       std::cout << "Mode set to Horizontal" << std::endl;
     } else if (key == 'v') {
       calculator.SetMovementType(application::window::object_position::
-                                     movement::MovementType::Vertical);
+                                     movement::MovementType::kVertical);
       std::cout << "Mode set to Vertical" << std::endl;
     }
   }

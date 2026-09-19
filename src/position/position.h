@@ -16,7 +16,7 @@ class PositionCalculator {
   PositionCalculator(
       application::window::object_position::movement::MovementType type =
           application::window::object_position::movement::MovementType::
-              Horizontal)
+              kHorizontal)
       : controller_(type) {}
 
   void SetMovementType(

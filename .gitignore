@@ -64,3 +64,4 @@ Thumbs.db
 .git/
 
 bazel-*
+.ocv/

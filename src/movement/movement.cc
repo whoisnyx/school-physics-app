@@ -11,7 +11,7 @@ Kinematics MovementController::Calculate(double distance, double time) const {
 
   double velocity = distance / time;
 
-  if (type_ == MovementType::Horizontal) {
+  if (type_ == MovementType::kHorizontal) {
     // Assuming constant acceleration from rest: s = 0.5 * a * t^2.
     double acceleration = 2.0 * distance / (time * time);
     return {velocity, acceleration, "a"};

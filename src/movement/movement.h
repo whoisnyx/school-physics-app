@@ -7,7 +7,7 @@
 
 namespace application::window::object_position::movement {
 
-enum class MovementType { Horizontal, Vertical };
+enum class MovementType { kHorizontal, kVertical };
 
 struct Kinematics {
   double velocity;
