@@ -11,7 +11,6 @@ else()
   add_compile_options(-Wall -Wextra -Werror)
 endif()
 
-
 enable_testing()
 
 add_subdirectory(src)
