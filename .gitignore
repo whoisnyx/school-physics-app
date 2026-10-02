@@ -1,0 +1,33 @@
+# Build directories
+/build/
+/.cache/
+/build-*/
+cmake-build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Generated build files
+Makefile
+
+# Test and coverage output
+Testing/
+
+# Compiled binaries and object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+
+.git/
+

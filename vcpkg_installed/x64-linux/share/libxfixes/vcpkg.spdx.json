@@ -1,0 +1,127 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.3/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/libxfixes-x64-linux-6.0.2#1-f36ed495-7d44-4a05-a507-701bb8401f5a",
+  "name": "libxfixes:x64-linux@6.0.2#1 d9d09cdd3cfda55f11145a8f0ab54c0c3fd42ad11f00e4e3afb865aa5dc3d2eb",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2026-07-27-98d7cb0cf1f4686a3e43aa5672b6230c1d56bce8"
+    ],
+    "created": "2026-09-13T10:17:21Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-port-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port-file-0",
+      "relationshipType": "DEPENDENCY_MANIFEST_OF",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-port-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-port-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-binary-file-0"
+    }
+  ],
+  "packages": [
+    {
+      "name": "libxfixes",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "6.0.2#1",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/libxfixes",
+      "homepage": "https://gitlab.freedesktop.org/xorg/lib/libxfixes",
+      "licenseConcluded": "LicenseRef-vcpkg-null",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Xlib-based library for the XFIXES Extension",
+      "comment": "This is the port (recipe) consumed by vcpkg.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:vcpkg/libxfixes@6.0.2?port_version=1&triplet=x64-linux&vcs_url=git%2Bhttps%3A%2F%2Fgithub.com%2FMicrosoft%2Fvcpkg%23ports%2Flibxfixes"
+        }
+      ]
+    },
+    {
+      "name": "libxfixes:x64-linux",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "d9d09cdd3cfda55f11145a8f0ab54c0c3fd42ad11f00e4e3afb865aa5dc3d2eb",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "LicenseRef-vcpkg-null",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./vcpkg.json",
+      "SPDXID": "SPDXRef-port-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d76b66a617de206d79f674ad8c51b5d6703994b226637184fd80aee670d5605e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./fix-configure.patch",
+      "SPDXID": "SPDXRef-port-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c079b60652ba8ff24ec2c8a961d3b79caba3a1b766e8dae617e90a74778c9833"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./portfile.cmake",
+      "SPDXID": "SPDXRef-port-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3e180908fb0dcd04f7c8efe9704023e537e677c13b75142b890e40167c18e43f"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./BUILD_INFO",
+      "SPDXID": "SPDXRef-binary-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "915e2504cf717a2b79486313acd14e06d959d3ff6aeeb168e1c3ca7008c5e999"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

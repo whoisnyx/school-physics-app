@@ -1,0 +1,5 @@
+x64-linux/
+x64-linux/share/
+x64-linux/share/libxfixes/
+x64-linux/share/libxfixes/vcpkg.spdx.json
+x64-linux/share/libxfixes/vcpkg_abi_info.txt

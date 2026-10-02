@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.3/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/libxext-x64-linux-1.3.7#1-9fc011e4-933b-4f0f-94d6-a561095ee6c2",
+  "name": "libxext:x64-linux@1.3.7#1 e559384ae05ad674a5dab463fb21f79a76fd7d0798a715647fc38a36dfac8a32",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2026-07-27-98d7cb0cf1f4686a3e43aa5672b6230c1d56bce8"
+    ],
+    "created": "2026-09-13T10:17:21Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-port-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port-file-0",
+      "relationshipType": "DEPENDENCY_MANIFEST_OF",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-port-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-binary-file-0"
+    }
+  ],
+  "packages": [
+    {
+      "name": "libxext",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.3.7#1",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/libxext",
+      "homepage": "https://gitlab.freedesktop.org/xorg/lib/libxext",
+      "licenseConcluded": "LicenseRef-vcpkg-null",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Xlib-based library for common extensions to the X11 protocol",
+      "comment": "This is the port (recipe) consumed by vcpkg.",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:vcpkg/libxext@1.3.7?port_version=1&triplet=x64-linux&vcs_url=git%2Bhttps%3A%2F%2Fgithub.com%2FMicrosoft%2Fvcpkg%23ports%2Flibxext"
+        }
+      ]
+    },
+    {
+      "name": "libxext:x64-linux",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "e559384ae05ad674a5dab463fb21f79a76fd7d0798a715647fc38a36dfac8a32",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "LicenseRef-vcpkg-null",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./vcpkg.json",
+      "SPDXID": "SPDXRef-port-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3845c9e4a47a319fb66547fbbf1cadc7b57c9ddae808d37e3166db07df721e87"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./portfile.cmake",
+      "SPDXID": "SPDXRef-port-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e119f8ef077784f1c44689a701f8d9968c3b6f037350a386d58f3b3ab3bdf12d"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./BUILD_INFO",
+      "SPDXID": "SPDXRef-binary-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "915e2504cf717a2b79486313acd14e06d959d3ff6aeeb168e1c3ca7008c5e999"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

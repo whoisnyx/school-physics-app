@@ -1,0 +1,7 @@
+x64-linux/
+x64-linux/share/
+x64-linux/share/libx11/
+x64-linux/share/libx11/vcpkg.spdx.json
+x64-linux/share/libx11/vcpkg_abi_info.txt
+x64-linux/share/x11/
+x64-linux/share/x11/vcpkg-cmake-wrapper.cmake

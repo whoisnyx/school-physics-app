@@ -1,0 +1,20 @@
+{
+  "packages": [
+{
+  "SPDXID" : "SPDXRef-resource-0",
+  "checksums" : 
+  [
+    {
+      "algorithm" : "SHA512",
+      "checksumValue" : "2f40ecbc55b0fbaa57ade952a75583bc8fbfde234cce9248489e9ae06e0597d98c2f4c77d8279758dec29da97e06cde5708d30a1238d91bebd023b2320f38528"
+    }
+  ],
+  "copyrightText" : "NOASSERTION",
+  "downloadLocation" : "https://download.gnome.org/sources/at-spi2-atk/2.38/at-spi2-atk-2.38.0.tar.xz",
+  "licenseConcluded" : "NOASSERTION",
+  "licenseDeclared" : "NOASSERTION",
+  "name" : "GNOME-at-spi2-atk-2.38.0.tar.xz",
+  "packageFileName" : "GNOME-at-spi2-atk-2.38.0.tar.xz"
+}
+  ]
+}

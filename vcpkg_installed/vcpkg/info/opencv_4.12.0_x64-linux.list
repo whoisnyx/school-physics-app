@@ -1,0 +1,6 @@
+x64-linux/
+x64-linux/share/
+x64-linux/share/opencv/
+x64-linux/share/opencv/vcpkg-cmake-wrapper.cmake
+x64-linux/share/opencv/vcpkg.spdx.json
+x64-linux/share/opencv/vcpkg_abi_info.txt

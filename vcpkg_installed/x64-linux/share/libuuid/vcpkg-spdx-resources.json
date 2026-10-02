@@ -1,0 +1,20 @@
+{
+  "packages": [
+{
+  "SPDXID" : "SPDXRef-resource-0",
+  "checksums" : 
+  [
+    {
+      "algorithm" : "SHA512",
+      "checksumValue" : "77488caccc66503f6f2ded7bdfc4d3bc2c20b24a8dc95b2051633c695e99ec27876ffbafe38269b939826e1fdb06eea328f07b796c9e0aaca12331a787175507"
+    }
+  ],
+  "copyrightText" : "NOASSERTION",
+  "downloadLocation" : "https://sourceforge.net/projects/libuuid/files//libuuid-1.0.3.tar.gz",
+  "licenseConcluded" : "NOASSERTION",
+  "licenseDeclared" : "NOASSERTION",
+  "name" : "libuuid-1.0.3.tar.gz",
+  "packageFileName" : "libuuid-1.0.3.tar.gz"
+}
+  ]
+}

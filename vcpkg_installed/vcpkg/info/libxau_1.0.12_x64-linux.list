@@ -1,0 +1,5 @@
+x64-linux/
+x64-linux/share/
+x64-linux/share/libxau/
+x64-linux/share/libxau/vcpkg.spdx.json
+x64-linux/share/libxau/vcpkg_abi_info.txt
