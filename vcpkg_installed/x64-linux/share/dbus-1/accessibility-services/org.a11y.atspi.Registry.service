@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.a11y.atspi.Registry
-Exec=/opt/vcpkg/packages/at-spi2-core_x64-linux/libexec/at-spi2-registryd --use-gnome-session
