@@ -1,3 +1,5 @@
+// Copyright 2026 NUX.
+
 #include "colors/colors.h"
 
 #include <string>

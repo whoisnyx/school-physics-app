@@ -1,3 +1,5 @@
+// Copyright 2026 NUX.
+
 #include "kinematics/kinematics.h"
 
 // Namespace for physics kinematics calculations.

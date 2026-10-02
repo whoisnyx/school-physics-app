@@ -1,3 +1,5 @@
+// Copyright 2026 NUX.
+
 #ifndef SRC_POSITION_POSITION_H_
 #define SRC_POSITION_POSITION_H_
 
@@ -5,7 +7,6 @@
 #include <deque>
 #include <memory>
 #include <opencv2/opencv.hpp>
-#include <string>
 
 #include "movement/movement.h"
 

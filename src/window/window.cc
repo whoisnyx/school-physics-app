@@ -1,3 +1,5 @@
+// Copyright 2026 NUX.
+
 #include "window/window.h"
 
 #include <opencv2/opencv.hpp>

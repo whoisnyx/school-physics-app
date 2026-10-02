@@ -1,3 +1,5 @@
+// Copyright 2026 NUX.
+
 #include <algorithm>
 #include <iostream>
 #include <memory>

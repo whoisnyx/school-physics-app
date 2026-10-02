@@ -1,3 +1,5 @@
+// Copyright 2026 NUX.
+
 #ifndef SRC_COLORS_COLORS_H_
 #define SRC_COLORS_COLORS_H_
 

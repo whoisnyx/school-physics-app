@@ -1,3 +1,5 @@
+// Copyright 2026 NUX.
+
 #ifndef SRC_WINDOW_WINDOW_H_
 #define SRC_WINDOW_WINDOW_H_
 

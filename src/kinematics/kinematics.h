@@ -1,3 +1,5 @@
+// Copyright 2026 NUX.
+
 #ifndef SRC_KINEMATICS_KINEMATICS_H_
 #define SRC_KINEMATICS_KINEMATICS_H_
 
