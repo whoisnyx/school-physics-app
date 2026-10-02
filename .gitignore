@@ -11,6 +11,9 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 
+# Package manager generated files & folders
+/vcpkg_installed/
+
 # Generated build files
 Makefile
 
