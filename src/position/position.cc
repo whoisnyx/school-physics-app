@@ -126,7 +126,7 @@ void ObjectPositionCalculator::TrackObject(cv::Mat& mask, cv::Mat& hsv,
 
         std::cout << "S = " << distance << " px\n";
 
-        std::cout << "T = " << time << " s\n";
+        std::cout << "t = " << time << " s\n";
 
         std::cout << "v = " << result.velocity << " px/s\n";
 

@@ -16,9 +16,6 @@ class Color {
   Color(const std::string& hue, const cv::Scalar& lower_bound,
         const cv::Scalar& upper_bound);
 
-  // Virtual destructor for safe polymorphic cleanup.
-  virtual ~Color() = default;
-
   // Returns the string name of the color hue.
   const std::string& GetHue() const;
 
@@ -27,6 +24,9 @@ class Color {
 
   // Returns the upper bound scalar in HSV space.
   const cv::Scalar& GetUpperBound() const;
+
+  // Virtual destructor for safe polymorphic cleanup.
+  virtual ~Color() = default;
 
  protected:
   std::string hue_;               // Name of the color hue.
