@@ -7,7 +7,7 @@ TEST(KinematicsTest, HorizontalCalculation) {
   auto result = kinematics.HorizontalCalculating(100.0, 2.0);
   EXPECT_DOUBLE_EQ(result.velocity, 50.0);
   EXPECT_DOUBLE_EQ(result.acceleration, 50.0);
-  EXPECT_EQ(result.accel_name, "Acceleration");
+  EXPECT_EQ(result.accel_name, "a");
 }
 
 // Test vertical kinematics calculation correctness.
@@ -16,5 +16,5 @@ TEST(KinematicsTest, VerticalCalculation) {
   auto result = kinematics.VerticalCalculating(200.0, 4.0);
   EXPECT_DOUBLE_EQ(result.velocity, 50.0);
   EXPECT_DOUBLE_EQ(result.acceleration, 25.0);
-  EXPECT_EQ(result.accel_name, "Gravity");
+  EXPECT_EQ(result.accel_name, "g");
 }
